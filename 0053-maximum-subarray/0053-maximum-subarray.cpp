@@ -1,19 +1,17 @@
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
-        int maxsum INT_MIN;
-        int cursum{0};
+        int mx = nums[0];
+        int cmx = 0;
 
         for (const auto& x : nums) {
-            cursum += x;
+            cmx += x;
+            mx = max(mx, cmx);
 
-            if (cursum > maxsum)
-                maxsum = cursum;
-                
-            if (cursum < 0)
-                cursum = 0;
+            if(cmx<0)
+                cmx = 0;
         }
 
-        return maxsum;
+        return mx;
     }
 };
