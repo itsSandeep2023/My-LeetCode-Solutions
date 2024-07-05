@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0002-add-two-numbers) |
+| [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2299-merge-nodes-in-between-zeros) |
 ## Math
 |  |
