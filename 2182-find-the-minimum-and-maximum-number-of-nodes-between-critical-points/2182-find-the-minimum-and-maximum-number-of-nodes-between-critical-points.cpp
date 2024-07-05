@@ -11,6 +11,9 @@
 class Solution {
 public:
     vector<int> nodesBetweenCriticalPoints(ListNode* head) {
+        ios::sync_with_stdio(false);
+        cin.tie(nullptr);
+        
         int mn = 1e5 + 1, mx{0};
         ListNode *p = head, *c = head->next, *n = c->next;
         int a{0};
