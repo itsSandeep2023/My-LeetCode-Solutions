@@ -1,12 +1,12 @@
 class Solution {
 public:
     int passThePillow(int n, int time) {
-        int c = time / (n - 1);
-        int t = time % (n - 1);
+        ios::sync_with_stdio(false);
+        cin.tie(nullptr);
 
-        if (c % 2)
-            return n - t;
+        if ((time / (n - 1)) % 2)
+            return n - (time % (n - 1));
 
-        return 1 + t;
+        return 1 + (time % (n - 1));
     }
 };
