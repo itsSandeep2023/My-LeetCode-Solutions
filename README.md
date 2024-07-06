@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0652-find-duplicate-subtrees](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0652-find-duplicate-subtrees) |
 ## Linked List
 |  |
 | ------- |
@@ -61,4 +62,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2299-merge-nodes-in-between-zeros](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2645-pass-the-pillow](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2645-pass-the-pillow) |
+## Tree
+|  |
+| ------- |
+| [0652-find-duplicate-subtrees](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0652-find-duplicate-subtrees) |
+## Depth-First Search
+|  |
+| ------- |
+| [0652-find-duplicate-subtrees](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0652-find-duplicate-subtrees) |
+## Binary Tree
+|  |
+| ------- |
+| [0652-find-duplicate-subtrees](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0652-find-duplicate-subtrees) |
 <!---LeetCode Topics End-->
