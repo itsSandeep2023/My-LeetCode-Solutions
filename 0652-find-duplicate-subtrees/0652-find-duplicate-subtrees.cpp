@@ -27,6 +27,9 @@ public:
     }
 
     vector<TreeNode*> findDuplicateSubtrees(TreeNode* root) {
+        ios::sync_with_stdio(false);
+        cin.tie(nullptr);
+
         unordered_map<string, int> mp;
         vector<TreeNode*> ans;
 
