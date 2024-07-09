@@ -2,7 +2,7 @@ class Solution {
 public:
     void go(vector<string>& ans, string s, int &n)
     {
-        if(s.size()>=n)
+        if(s.size()==n)
         {
             ans.push_back(s);
             return;
