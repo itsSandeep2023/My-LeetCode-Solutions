@@ -14,7 +14,6 @@ public:
 
     vector<string> validStrings(int n) {
         ios::sync_with_stdio(false);
-        cin.tie(nullptr);
 
         vector<string> ans;
         go(ans, "", n);
