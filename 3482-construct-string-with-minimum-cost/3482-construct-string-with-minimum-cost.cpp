@@ -1,16 +1,20 @@
 class Solution {
 public:
     struct trie {
-        map<char, trie*> next;
+        trie* next[26];
         int cost;
-        trie() { cost = INT_MAX; }
+        trie() {
+            cost = INT_MAX;
+            for (int i{0}; i < 26; i++)
+                next[i] = nullptr;
+        }
     };
 
     void insert(trie* root, string s, int cost) {
         for (auto ch : s) {
-            if (!root->next[ch])
-                root->next[ch] = new trie();
-            root = root->next[ch];
+            if (!root->next[ch - 'a'])
+                root->next[ch - 'a'] = new trie();
+            root = root->next[ch - 'a'];
         }
         root->cost = min(cost, root->cost);
     }
@@ -31,7 +35,7 @@ public:
             trie* temp = root;
             for (int j = i; j < target.size() && temp; j++) {
 
-                temp = temp->next[target[j]];
+                temp = temp->next[target[j]-'a'];
                 if (temp && temp->cost != INT_MAX) {
                     ans = min(ans, temp->cost + dp[j + 1]);
                 }
