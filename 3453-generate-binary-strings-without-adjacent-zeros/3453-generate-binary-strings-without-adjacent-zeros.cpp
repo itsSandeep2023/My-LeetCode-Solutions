@@ -13,9 +13,10 @@ public:
     }
 
     vector<string> validStrings(int n) {
+        ios::sync_with_stdio(false);
+        
         vector<string> ans;
-        string s;
-        go(ans, s, n);
+        go(ans, "", n);
         return ans;
     }
 };
