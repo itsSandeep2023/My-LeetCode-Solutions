@@ -1,20 +1,15 @@
 class Solution {
 public:
-    void go(vector<string>& ans, string s, int &n)
-    {
-        if(s.size()==n)
-        {
+    void go(vector<string>& ans, string s, int& n) {
+        if (s.size() >= n) {
+            if(s.size()>n)
+                s.pop_back();
             ans.push_back(s);
             return;
         }
-
-        if(s.size()>=1 and s[s.size()-1]=='1')
-            go(ans, s+"0",n);
-        else if(s.size()==0)
-            go(ans, s+"0",n);
         
-
-        go(ans, s+"1",n);
+        go(ans, s + "01", n);
+        go(ans, s + "1", n);
     }
 
     vector<string> validStrings(int n) {
