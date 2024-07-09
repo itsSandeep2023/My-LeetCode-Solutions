@@ -21,7 +21,6 @@ public:
 
     int minimumCost(string target, vector<string>& words, vector<int>& costs) {
         ios::sync_with_stdio(false);
-        cin.tie(nullptr);
 
         trie* root = new trie();
         int n = costs.size();
