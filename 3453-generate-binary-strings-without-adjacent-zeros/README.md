@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/contest/weekly-contest-405/problems/generate-binary-strings-without-adjacent-zeros">3453. Generate Binary Strings Without Adjacent Zeros</a></h2><h3>Medium</h3><hr><p>You are given a positive integer <code>n</code>.</p>
+<h2><a href="https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/description/">3453. Generate Binary Strings Without Adjacent Zeros</a></h2><h3>Medium</h3><hr><p>You are given a positive integer <code>n</code>.</p>
 
 <p>A binary string <code>x</code> is <strong>valid</strong> if all <span data-keyword="substring-nonempty">substrings</span> of <code>x</code> of length 2 contain <strong>at least</strong> one <code>&quot;1&quot;</code>.</p>
 
