@@ -12,11 +12,12 @@ public:
                 root->next[ch] = new trie();
             root = root->next[ch];
         }
-        // root->end = true;
         root->cost = min(cost, root->cost);
     }
 
     int minimumCost(string target, vector<string>& words, vector<int>& costs) {
+        ios::sync_with_stdio(false);
+        
         trie* root = new trie();
         int n = costs.size();
 
