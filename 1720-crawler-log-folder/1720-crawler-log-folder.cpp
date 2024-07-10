@@ -1,6 +1,8 @@
 class Solution {
 public:
     int minOperations(vector<string>& logs) {
+        ios::sync_with_stdio(false);
+        
         int ans{0};
 
         for(const auto& s: logs)
