@@ -1,17 +1,30 @@
 class Solution {
 public:
     string reverseParentheses(string s) {
-        stack<int> st;
+        unordered_map<int, int> mp;
         string ans;
-        for (const auto& ch : s) {
-            if (ch == '(')
-                st.push(ans.length());
-            else if (ch == ')') {
-                int i = st.top();
+        stack<int> st;
+        int n = s.size();
+
+        for (int i{0}; i < n; i++) {
+            if (s[i] == '(')
+                st.push(i);
+            else if (s[i] == ')') {
+                mp[i] = st.top();
+                mp[st.top()] = i;
                 st.pop();
-                reverse(ans.begin() + i, ans.end());
-            } else
-                ans.push_back(ch);
+            }
+        }
+
+        int dir = 1;
+
+        for (int i = 0; i < n; i += dir) {
+            if (s[i] == '(' or s[i] == ')') {
+                i = mp[i];
+                dir = -dir;
+            } else {
+                ans.push_back(s[i]);
+            }
         }
 
         return ans;
