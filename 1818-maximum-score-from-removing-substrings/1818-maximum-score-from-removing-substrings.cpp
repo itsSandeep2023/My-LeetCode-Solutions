@@ -18,6 +18,8 @@ public:
     }
 
     int maximumGain(string s, int x, int y) {
+        ios::sync_with_stdio(false);
+        
         int n = s.size();
         int ans{0};
 
