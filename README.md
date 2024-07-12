@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0008-string-to-integer-atoi](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0008-string-to-integer-atoi) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1720-crawler-log-folder) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1818-maximum-score-from-removing-substrings) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 | [3482-construct-string-with-minimum-cost](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3482-construct-string-with-minimum-cost) |
 ## Sliding Window
@@ -114,8 +115,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1720-crawler-log-folder) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1818-maximum-score-from-removing-substrings) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0112-path-sum](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0112-path-sum) |
+## Greedy
+|  |
+| ------- |
+| [1818-maximum-score-from-removing-substrings](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1818-maximum-score-from-removing-substrings) |
 <!---LeetCode Topics End-->
