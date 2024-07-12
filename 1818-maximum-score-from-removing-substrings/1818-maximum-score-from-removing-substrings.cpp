@@ -1,25 +1,20 @@
 class Solution {
 public:
     string removeSubstr(string& s, string& match) {
-        stack<char> st;
+        int i{0};
 
-        for (char& ch : s) {
-            if (ch == match[1] and !st.empty() and st.top() == match[0]) {
-                st.pop();
-            } else {
-                st.push(ch);
+        for(int j{0}; j<s.size();j++){
+            s[i++] = s[j];
+            
+            if(i>=2 and s[i-2]==match[0] and s[i-1]==match[1])
+            {
+                i-=2;
             }
         }
 
-        string temp;
+        s.erase(i, s.length());
 
-        while (!st.empty()) {
-            temp.push_back(st.top());
-            st.pop();
-        }
-
-        reverse(begin(temp), end(temp));
-        return temp;
+        return s;
     }
 
     int maximumGain(string s, int x, int y) {
@@ -34,7 +29,7 @@ public:
 
         int cr = (n - l1);
         ans += (cr / 2) * max(x, y);
-        cout<<ans;
+        cout << ans;
 
         string minr = removeSubstr(maxr, mins);
         int l2 = minr.length();
