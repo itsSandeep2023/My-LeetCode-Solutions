@@ -2,6 +2,7 @@ class Solution {
 public:
     vector<int> survivedRobotsHealths(vector<int>& positions, vector<int>& healths, string directions) {
         ios::sync_with_stdio(false);
+        cin.tie(nullptr);
         
         int n = positions.size();
 
