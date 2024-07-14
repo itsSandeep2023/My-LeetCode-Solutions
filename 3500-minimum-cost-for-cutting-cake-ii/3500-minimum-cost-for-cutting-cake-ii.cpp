@@ -1,6 +1,8 @@
 class Solution {
 public:
     long long minimumCost(int m, int n, vector<int>& horizontalCut, vector<int>& verticalCut) {
+        ios::sync_with_stdio(false);
+        cin.tie(nullptr);
         
         sort(horizontalCut.rbegin(), horizontalCut.rend());
         sort(verticalCut.rbegin(), verticalCut.rend());
