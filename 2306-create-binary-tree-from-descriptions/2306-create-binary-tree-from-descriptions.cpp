@@ -14,7 +14,6 @@ class Solution {
 public:
     TreeNode* createBinaryTree(vector<vector<int>>& descriptions) {
         ios::sync_with_stdio(false);
-        cin.tie(nullptr);
         
         unordered_map<int, TreeNode*> mp;
         unordered_set<int> childSet;
