@@ -12,22 +12,6 @@
  */
 class Solution {
 public:
-    TreeNode* lowestCommonAncestor(TreeNode* root, int& src, int& dest) {
-        if (!root)
-            return NULL;
-
-        if (root->val == src or root->val == dest) {
-            return root;
-        }
-
-        TreeNode* l = lowestCommonAncestor(root->left, src, dest);
-        TreeNode* r = lowestCommonAncestor(root->right, src, dest);
-
-        if (l and r)
-            return root;
-
-        return l ? l : r;
-    }
 
     bool findPath(TreeNode* root, int& target, string& path)
     {
@@ -55,20 +39,30 @@ public:
     string getDirections(TreeNode* root, int startValue, int destValue) {
         ios::sync_with_stdio(false);
 
-        TreeNode* LCA = lowestCommonAncestor(root, startValue, destValue);
+        string r2src;
+        string r2dest;
 
-        string lca2src;
-        string lca2dest;
+        findPath(root, startValue, r2src);
+        findPath(root, destValue, r2dest);
 
-        findPath(LCA, startValue, lca2src);
-        findPath(LCA, destValue, lca2dest);
+
+        int i{0};
+        while(i<r2src.size() and i<r2dest.size() and r2src[i]==r2dest[i])
+            i++;
 
         string ans;
 
-        for (const auto& ch : lca2src)
+        for(int j{0}; j<r2src.size() - i;j++)
+        {
             ans.push_back('U');
+        }
 
-        ans += lca2dest;
+        ans += r2dest.substr(i, (r2dest.size()-i+1));
+
+        // for(i;i<r2dest.size();i++)
+        // {
+        //     ans.push_back()
+        // }
 
         return ans;
     }
