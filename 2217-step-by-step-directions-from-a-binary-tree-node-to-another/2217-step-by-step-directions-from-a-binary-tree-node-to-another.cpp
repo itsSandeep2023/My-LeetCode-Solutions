@@ -57,12 +57,11 @@ public:
             ans.push_back('U');
         }
 
-        ans += r2dest.substr(i, (r2dest.size()-i+1));
 
-        // for(i;i<r2dest.size();i++)
-        // {
-        //     ans.push_back()
-        // }
+        for(i;i<r2dest.size();i++)
+        {
+            ans.push_back(r2dest[i]);
+        }
 
         return ans;
     }
