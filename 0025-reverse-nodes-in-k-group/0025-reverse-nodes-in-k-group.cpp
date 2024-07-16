@@ -11,6 +11,9 @@
 class Solution {
 public:
     ListNode* reverseKGroup(ListNode* head, int& k) {
+        ios::sync_with_stdio(false);
+        cin.tie(nullptr);
+
         if (!head or !head->next)
             return head;
 
@@ -20,29 +23,24 @@ public:
         while (i-- and t)
             t = t->next;
 
-        if(i>0 or !t)
-        {
+        if (i > 0 or !t) {
             return head;
         }
 
-        if (t and t->next)
-        {
+        if (t and t->next) {
             p = reverseKGroup(t->next, k);
             t->next = NULL;
-        }
-        else p = NULL;
+        } else
+            p = NULL;
 
-        
         c = head;
         n = head->next;
 
-        while(c and n)
-        {
-            // cout<<p->val<<
+        while (c and n) {
             c->next = p;
-            p=c;
-            c=n;
-            n=n->next;
+            p = c;
+            c = n;
+            n = n->next;
         }
 
         c->next = p;
