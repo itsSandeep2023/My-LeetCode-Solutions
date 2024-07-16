@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1720-crawler-log-folder) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1818-maximum-score-from-removing-substrings) |
+| [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 | [3482-construct-string-with-minimum-cost](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3482-construct-string-with-minimum-cost) |
 ## Sliding Window
@@ -94,17 +95,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0112-path-sum](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0112-path-sum) |
 | [0652-find-duplicate-subtrees](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0652-find-duplicate-subtrees) |
+| [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0112-path-sum](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0112-path-sum) |
 | [0652-find-duplicate-subtrees](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0652-find-duplicate-subtrees) |
+| [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 ## Binary Tree
 |  |
 | ------- |
 | [0112-path-sum](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0112-path-sum) |
 | [0652-find-duplicate-subtrees](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0652-find-duplicate-subtrees) |
+| [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Queue
 |  |
