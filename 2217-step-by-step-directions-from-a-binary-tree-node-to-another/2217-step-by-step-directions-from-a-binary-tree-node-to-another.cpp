@@ -53,6 +53,8 @@ public:
     }
 
     string getDirections(TreeNode* root, int startValue, int destValue) {
+        ios::sync_with_stdio(false);
+
         TreeNode* LCA = lowestCommonAncestor(root, startValue, destValue);
 
         string lca2src;
