@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0053-maximum-subarray](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0053-maximum-subarray) |
+| [1207-delete-nodes-and-return-forest](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1720-crawler-log-folder](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1720-crawler-log-folder) |
 | [1803-average-waiting-time](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -22,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0652-find-duplicate-subtrees](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0652-find-duplicate-subtrees) |
 | [0726-number-of-atoms](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0726-number-of-atoms) |
+| [1207-delete-nodes-and-return-forest](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Linked List
 |  |
@@ -97,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0112-path-sum](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0112-path-sum) |
 | [0652-find-duplicate-subtrees](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0652-find-duplicate-subtrees) |
+| [1207-delete-nodes-and-return-forest](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Depth-First Search
@@ -104,12 +107,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0112-path-sum](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0112-path-sum) |
 | [0652-find-duplicate-subtrees](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0652-find-duplicate-subtrees) |
+| [1207-delete-nodes-and-return-forest](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 ## Binary Tree
 |  |
 | ------- |
 | [0112-path-sum](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0112-path-sum) |
 | [0652-find-duplicate-subtrees](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0652-find-duplicate-subtrees) |
+| [1207-delete-nodes-and-return-forest](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Queue
