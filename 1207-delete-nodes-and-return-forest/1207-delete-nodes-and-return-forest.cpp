@@ -31,7 +31,6 @@ public:
 
     vector<TreeNode*> delNodes(TreeNode* root, vector<int>& to_delete) {
         ios::sync_with_stdio(false);
-        cin.tie(nullptr);
         
         unordered_set<int> st;
 
