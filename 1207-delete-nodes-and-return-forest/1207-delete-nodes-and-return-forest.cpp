@@ -30,8 +30,6 @@ public:
     }
 
     vector<TreeNode*> delNodes(TreeNode* root, vector<int>& to_delete) {
-        cin.tie(nullptr);
-        
         unordered_set<int> st;
 
         for (const auto& x : to_delete) {
