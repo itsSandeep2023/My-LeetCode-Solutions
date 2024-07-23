@@ -1,8 +1,8 @@
 class Solution {
 public:
     vector<int> frequencySort(vector<int>& nums) {
-        ios::sync_with_stdio(false);
-        
+        // ios::sync_with_stdio(false);
+
         unordered_map<int, int> freq;
         for (int num : nums) {
             freq[num]++;
