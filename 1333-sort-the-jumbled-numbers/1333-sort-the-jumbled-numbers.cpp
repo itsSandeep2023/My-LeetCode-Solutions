@@ -1,9 +1,6 @@
 class Solution {
 public:
     vector<int> sortJumbled(vector<int>& mapping, vector<int>& nums) {
-        ios::sync_with_stdio(false);
-        cin.tie(0);
-
         set<pair<int, int>> st;
 
         for (int i{0}; i < nums.size(); i++) {
