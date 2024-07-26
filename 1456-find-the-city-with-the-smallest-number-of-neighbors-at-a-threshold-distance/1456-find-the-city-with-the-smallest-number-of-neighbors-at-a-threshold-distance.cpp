@@ -1,6 +1,7 @@
 class Solution {
 public:
     #define P pair<int, int>
+    #define init ios::sync_with_stdio(false);
 
     void dijkstra(int n,  unordered_map<int, vector<P>> & adj, vector<int>& result, int s)
     {
@@ -54,6 +55,7 @@ public:
     }
 
     int findTheCity(int n, vector<vector<int>>& edges, int distanceThreshold) {
+        init;
         vector<vector<int>> SPM(n, vector<int>(n, 1e9+7));
 
         for(int i {0};i<n;i++)
