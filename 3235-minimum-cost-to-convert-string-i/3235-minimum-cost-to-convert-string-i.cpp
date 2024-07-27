@@ -22,6 +22,7 @@ public:
 
     long long minimumCost(string source, string target, vector<char>& original,
                           vector<char>& changed, vector<int>& cost) {
+        ios::sync_with_stdio(false);
         vector<vector<long long>> adjMatrix(26, vector<long long>(26, INT_MAX));
 
         floyedWarshall(adjMatrix, original, changed, cost);
