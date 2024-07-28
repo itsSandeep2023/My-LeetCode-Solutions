@@ -38,7 +38,8 @@ public:
                 }
             }
 
-            if(d2[n]!=INT_MAX)
+
+            if (d2[n] != INT_MAX)
                 return d2[n];
         }
 
