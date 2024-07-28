@@ -22,9 +22,6 @@ public:
             auto [timePassed, node] = q.top();
             q.pop();
 
-            if (node == n and d2[node] != INT_MAX)
-                return d2[n];
-
             int div = timePassed / change;
             if (div % 2 == 1)
                 timePassed = change * (div + 1);
