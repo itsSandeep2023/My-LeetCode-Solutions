@@ -19,6 +19,7 @@ public:
         d1[1] = 0;
 
         while (!q.empty()) {
+
             auto [timePassed, node] = q.top();
             q.pop();
 
@@ -36,10 +37,10 @@ public:
                     d2[nbr] = timePassed + time;
                     q.push({timePassed + time, nbr});
                 }
-            }
 
-            if (d2[n] != INT_MAX)
-                return d2[n];
+                if (d2[n] != INT_MAX)
+                    return d2[n];
+            }
         }
 
         return -1;
