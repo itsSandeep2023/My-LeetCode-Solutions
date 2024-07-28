@@ -34,11 +34,15 @@ public:
                     d2[nbr] = d1[nbr];
                     d1[nbr] = timePassed + time;
                     q.push({timePassed + time, nbr});
-                } else if (d2[nbr] > timePassed + time and d1[nbr] != timePassed + time) {
+                } else if (d2[nbr] > timePassed + time and
+                           d1[nbr] != timePassed + time) {
                     d2[nbr] = timePassed + time;
                     q.push({timePassed + time, nbr});
                 }
             }
+
+            if(d2[n]!=INT_MAX)
+                return d2[n];
         }
 
         return -1;
