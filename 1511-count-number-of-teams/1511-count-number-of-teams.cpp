@@ -2,6 +2,7 @@ class Solution {
 public:
     int numTeams(vector<int>& rating) {
         ios::sync_with_stdio(false);
+        cin.tie(0);
         
         int n = rating.size();
 
