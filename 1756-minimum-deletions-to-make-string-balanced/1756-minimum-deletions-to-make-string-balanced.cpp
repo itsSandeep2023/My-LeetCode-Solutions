@@ -7,7 +7,6 @@ public:
         int n = s.size();
 
         vector<int> lb(n + 1, 0);
-        vector<int> ra(n + 1, 0);
 
         int ans = 1e5;
 
@@ -15,10 +14,11 @@ public:
             lb[i + 1] = lb[i] + (s[i] == 'b');
         }
 
-        for (int i = n - 1; i >= 0; i--) {
-            ra[i] = ra[i + 1] + (s[i] == 'a');
+        int cnta{0};
 
-            ans = min(ans, ra[i + 1] + lb[i]);
+        for (int i = n - 1; i >= 0; i--) {
+            ans = min(ans, cnta + lb[i]);
+            cnta=  cnta + (s[i] == 'a');
         }
 
         return ans;
