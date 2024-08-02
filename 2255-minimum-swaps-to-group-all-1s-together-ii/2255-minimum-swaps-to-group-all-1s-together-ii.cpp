@@ -1,6 +1,9 @@
 class Solution {
 public:
     int minSwaps(vector<int>& nums) {
+        ios::sync_with_stdio(false);
+        cin.tie(0);
+        
         int cnt{0};
 
         for(const auto& x: nums)
