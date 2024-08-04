@@ -4,28 +4,24 @@ public:
         ios::sync_with_stdio(false);
         cin.tie(0);
         
-        priority_queue<int> sums;
+        vector<int> sums;
         int mod = 1e9 + 7;
 
         for (int i{0}; i < n; i++) {
             int csum{0};
             for (int j = i; j < n; j++) {
-                csum -= nums[j];
-                sums.push(csum);
+                csum += nums[j];
+                sums.push_back(csum);
             }
         }
 
-        int i = 1;
-        while (i < left) {
-            sums.pop();
-            i++;
-        }
+        sort(sums.begin(), sums.end());
 
         int ans{0};
-        while (i <= right) {
-            ans = (ans - sums.top()) % mod;
-            sums.pop();
-            i++;
+
+        for(int i=left-1;i<right;i++)
+        {
+            ans=(ans+sums[i])% mod;
         }
 
         return ans;
