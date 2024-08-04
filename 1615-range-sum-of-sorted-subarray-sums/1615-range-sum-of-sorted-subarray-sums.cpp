@@ -1,7 +1,7 @@
 class Solution {
 public:
     int rangeSum(vector<int>& nums, int n, int left, int right) {
-        // ios::sync_with_stdio(false);
+        ios::sync_with_stdio(false);
 
         vector<int> sums;
         int mod = 1e9 + 7;
