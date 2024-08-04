@@ -2,8 +2,7 @@ class Solution {
 public:
     int rangeSum(vector<int>& nums, int n, int left, int right) {
         ios::sync_with_stdio(false);
-        cin.tie(0);
-        
+
         vector<int> sums;
         int mod = 1e9 + 7;
 
@@ -19,9 +18,8 @@ public:
 
         int ans{0};
 
-        for(int i=left-1;i<right;i++)
-        {
-            ans=(ans+sums[i])% mod;
+        for (int i = left - 1; i < right; i++) {
+            ans = (ans + sums[i]) % mod;
         }
 
         return ans;
