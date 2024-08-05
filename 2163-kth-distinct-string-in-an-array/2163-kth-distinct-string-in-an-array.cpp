@@ -9,9 +9,9 @@ public:
 
         for (const auto& s : arr) {
             if (mp[s] == 1) {
-                if (k == 1)
-                    return s;
                 k--;
+                if (k == 0)
+                    return s;
             }
         }
 
