@@ -3,7 +3,6 @@ public:
     string kthDistinct(vector<string>& arr, int k) {
         ios::sync_with_stdio(false);
         cin.tie(0);
-        
         unordered_map<string, int> mp;
 
         for (const auto& s : arr) {
