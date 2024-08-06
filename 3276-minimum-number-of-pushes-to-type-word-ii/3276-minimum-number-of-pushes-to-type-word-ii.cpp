@@ -1,6 +1,9 @@
 class Solution {
 public:
     int minimumPushes(string word) {
+        ios::sync_with_stdio(false);
+        cin.tie(0);
+        
         vector<int> v(26, 0);
 
         for (const auto& ch : word)
