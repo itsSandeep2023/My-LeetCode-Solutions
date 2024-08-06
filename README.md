@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1642-water-bottles](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2645-pass-the-pillow](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2645-pass-the-pillow) |
+| [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
 ## Recursion
 |  |
 | ------- |
@@ -81,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2502-sort-the-people](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2502-sort-the-people) |
 | [2727-number-of-senior-citizens](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2727-number-of-senior-citizens) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
+| [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 | [3482-construct-string-with-minimum-cost](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3482-construct-string-with-minimum-cost) |
 ## Sliding Window
@@ -182,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1818-maximum-score-from-removing-substrings) |
+| [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
 ## Sorting
 |  |
 | ------- |
