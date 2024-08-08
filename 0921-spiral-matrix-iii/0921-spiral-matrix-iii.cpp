@@ -3,7 +3,7 @@ public:
     vector<vector<int>> spiralMatrixIII(int rows, int cols, int rStart,
                                         int cStart) {
         ios::sync_with_stdio(false);
-                                            
+
         vector<vector<int>> dirs = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
 
         vector<vector<int>> ans;
