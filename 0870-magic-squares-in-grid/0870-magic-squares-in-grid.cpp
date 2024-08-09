@@ -36,7 +36,7 @@ public:
     }
 
     int numMagicSquaresInside(vector<vector<int>>& grid) {
-        // ios::sync_with_stdio(false);
+        ios::sync_with_stdio(false);
 
         int ans{0};
 
