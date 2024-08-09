@@ -4,12 +4,10 @@ public:
 
         //  check distinct
         unordered_set<int> st;
-        for(int i{-1}; i<=1; i++)
-        {
-            for(int j{-1}; j<=1; j++)
-            {
-                int num = grid[r+i][c+j];
-                if(num<1 or num>9 or st.count(num))
+        for (int i{-1}; i <= 1; i++) {
+            for (int j{-1}; j <= 1; j++) {
+                int num = grid[r + i][c + j];
+                if (num < 1 or num > 9 or st.count(num))
                     return false;
                 st.insert(num);
             }
@@ -46,7 +44,6 @@ public:
             for (int j{1}; j < grid[0].size() - 1; j++) {
                 if (checkGrid(grid, i, j))
                     ans++;
-
             }
         }
 
