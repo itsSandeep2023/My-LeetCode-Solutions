@@ -14,14 +14,14 @@ public:
     }
 
     int regionsBySlashes(vector<string>& grid) {
+        ios::sync_with_stdio(false);
+        
         int rows = grid.size();
         int cols = grid[0].size();
 
         int regions = 0;
 
-        vector<vector<int>> matrix(rows*3, vector<int>(cols*3, 0)); //M * N
-
-        //Populate the matrix using the mapping of '/', '\'
+        vector<vector<int>> matrix(rows*3, vector<int>(cols*3, 0));
 
         for(int i = 0; i < rows; i++) {
             for(int j = 0; j < cols; j++) {
@@ -38,10 +38,9 @@ public:
         }
 
 
-        //Apply concept of "Number of Islands"
         for(int i = 0; i < matrix.size(); i++) {
             for(int j = 0; j < matrix[0].size(); j++) {
-                if(matrix[i][j] == 0) { //DFS
+                if(matrix[i][j] == 0) {
                     numberOfIslandsDFS(matrix, i, j);
                     regions += 1;
                 }
@@ -49,6 +48,5 @@ public:
         }
 
         return regions;
-
     }
 };
