@@ -1,19 +1,16 @@
 class Solution {
 public:
 
-    vector<vector<int>> directions{{0, 1}, {0, -1}, {-1, 0}, {1, 0}};
-
     void numberOfIslandsDFS(vector<vector<int>>& matrix, int i, int j) {
         if(i < 0 || i >= matrix.size() || j < 0 || j >= matrix[0].size() || matrix[i][j] == 1)
             return;
         
         matrix[i][j] = 1; //mark visited
 
-        for(const auto& dir : directions) {
-            int new_i = i + dir[0];
-            int new_j = j + dir[1];
-            numberOfIslandsDFS(matrix, new_i, new_j);
-        }
+        numberOfIslandsDFS(matrix, i+1, j);
+        numberOfIslandsDFS(matrix, i-1, j);
+        numberOfIslandsDFS(matrix, i, j+1);
+        numberOfIslandsDFS(matrix, i, j-1);
     }
 
     int regionsBySlashes(vector<string>& grid) {
