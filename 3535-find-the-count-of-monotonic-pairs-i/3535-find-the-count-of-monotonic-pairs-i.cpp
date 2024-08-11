@@ -1,10 +1,10 @@
 class Solution {
 public:
-    const int MOD = 1e9 + 7;
 
-    int countMonotonicPairs(int i, int prevArr1, int prevArr2,
-                            const vector<int>& nums,
-                            vector<vector<vector<int>>>& dp) {
+    int countMonotonicPairs(int i, int prevArr1, int prevArr2, const vector<int>& nums, vector<vector<vector<int>>>& dp) {
+        ios::sync_with_stdio(false);
+
+        const int MOD = 1e9 + 7;
         int n = nums.size();
 
         if (i == n)
