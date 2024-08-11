@@ -24,6 +24,7 @@ public:
 
     int countGoodNodes(vector<vector<int>>& edges) {
         ios::sync_with_stdio(false);
+        cin.tie(0);
         
         int n = edges.size() + 1;
         vector<vector<int>> tree(n);
