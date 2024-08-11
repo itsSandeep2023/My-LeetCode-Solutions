@@ -37,6 +37,8 @@ public:
     }
 
     int minDays(vector<vector<int>>& grid) {
+        ios::sync_with_stdio(false);
+        
         m = grid.size();
         n = grid[0].size();
 
@@ -55,7 +57,7 @@ public:
                     islands = numberOfIslands(grid);
 
                     if(islands>1 or islands == 0)
-                        return 0;
+                        return 1;
 
                     grid[i][j] = 1;  
                 }
