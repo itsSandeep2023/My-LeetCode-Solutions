@@ -30,6 +30,7 @@ public:
 
     int countOfPairs(vector<int>& nums) {
         ios::sync_with_stdio(false);
+        cin.tie(0);
         int n = nums.size();
 
         vector<vector<vector<int>>> dp(
