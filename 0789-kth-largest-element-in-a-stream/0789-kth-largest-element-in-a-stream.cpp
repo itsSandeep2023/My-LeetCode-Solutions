@@ -4,6 +4,8 @@ public:
     int n;
 
     KthLargest(int k, vector<int>& nums) {
+        ios::sync_with_stdio(false);
+        
         n = k;
         for(const auto& x: nums){
             q.push(x);
