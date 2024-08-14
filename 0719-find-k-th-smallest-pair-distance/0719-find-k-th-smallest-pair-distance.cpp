@@ -1,7 +1,7 @@
 class Solution {
 public:
     int smallestDistancePair(vector<int>& nums, int k) {
-        ios::sync_with_stdio(false);
+        // ios::sync_with_stdio(false);
 
         int n = nums.size();
         int maxEl = *max_element(nums.begin(), nums.end());
