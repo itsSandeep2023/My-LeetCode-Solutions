@@ -1,6 +1,8 @@
 class Solution {
 public:
     bool lemonadeChange(vector<int>& bills) {
+        ios::sync_with_stdio(false);
+        
         int fcnt{0};
         int tcnt{0};
         
