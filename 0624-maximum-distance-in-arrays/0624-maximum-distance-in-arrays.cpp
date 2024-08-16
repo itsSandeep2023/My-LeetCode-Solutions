@@ -1,6 +1,8 @@
 class Solution {
 public:
     int maxDistance(vector<vector<int>>& arrays) {
+        ios::sync_with_stdio(false);
+
         int imin = arrays[0].front();
         int imax = arrays[0].back();
 
