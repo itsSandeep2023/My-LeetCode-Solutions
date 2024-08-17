@@ -1,6 +1,8 @@
 class Solution {
 public:
     vector<int> resultsArray(vector<int>& nums, int k) {
+        ios::sync_with_stdio(false);
+        
         if (k == 1)
             return nums;
 
