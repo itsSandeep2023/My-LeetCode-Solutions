@@ -4,6 +4,7 @@ public:
 
     long long maxEnergyBoost(vector<int>& energyDrinkA,
                              vector<int>& energyDrinkB) {
+        ios::sync_with_stdio(false);
         int n = energyDrinkA.size();
 
         ll dpA = energyDrinkA[0];
