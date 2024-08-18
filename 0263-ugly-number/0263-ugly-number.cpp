@@ -1,6 +1,8 @@
 class Solution {
 public:
     bool isUgly(int n) {
+        ios::ync_with_stdio(false);
+        
         while (n > 1) {
             if (n % 2 == 0)
                 n /= 2;
