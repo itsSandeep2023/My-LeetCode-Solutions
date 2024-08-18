@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0264-ugly-number-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0264-ugly-number-ii) |
 | [0652-find-duplicate-subtrees](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0652-find-duplicate-subtrees) |
 | [0726-number-of-atoms](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0726-number-of-atoms) |
 | [0999-regions-cut-by-slashes](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0999-regions-cut-by-slashes) |
@@ -67,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0002-add-two-numbers) |
 | [0007-reverse-integer](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0007-reverse-integer) |
 | [0263-ugly-number](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0263-ugly-number) |
+| [0264-ugly-number-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0264-ugly-number-ii) |
 | [0273-integer-to-english-words](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0273-integer-to-english-words) |
 | [1642-water-bottles](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -132,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0005-longest-palindromic-substring) |
 | [0053-maximum-subarray](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0053-maximum-subarray) |
+| [0264-ugly-number-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0264-ugly-number-ii) |
 | [1196-filling-bookcase-shelves](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1196-filling-bookcase-shelves) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1511-count-number-of-teams](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1511-count-number-of-teams) |
@@ -239,6 +242,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0239-sliding-window-maximum) |
+| [0264-ugly-number-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0264-ugly-number-ii) |
 | [0948-sort-an-array](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0948-sort-an-array) |
 ## Merge Sort
 |  |
