@@ -1,6 +1,7 @@
 class Solution {
 public:
     bool isUgly(int n) {
+        if(n<1) return false;
         
         while (n > 1) {
             if (n % 2 == 0)
@@ -13,6 +14,6 @@ public:
                 return false;
         }
 
-        return n==1;
+        return true;
     }
 };
