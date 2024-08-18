@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0002-add-two-numbers) |
 | [0007-reverse-integer](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0007-reverse-integer) |
+| [0263-ugly-number](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0263-ugly-number) |
 | [0273-integer-to-english-words](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0273-integer-to-english-words) |
 | [1642-water-bottles](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
