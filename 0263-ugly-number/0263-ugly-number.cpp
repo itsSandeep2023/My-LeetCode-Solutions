@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool isUgly(int n) {
-        ios::ync_with_stdio(false);
+        ios::sync_with_stdio(false);
         
         while (n > 1) {
             if (n % 2 == 0)
