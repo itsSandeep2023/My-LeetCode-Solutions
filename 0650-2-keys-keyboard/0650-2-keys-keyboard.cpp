@@ -1,6 +1,8 @@
 class Solution {
 public:
     int minSteps(int n) {
+        ios::sync_with_stdio(false);
+        
         if(n<=1)
             return 0;
         
