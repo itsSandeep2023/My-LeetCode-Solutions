@@ -34,6 +34,8 @@ public:
 
 
     int stoneGameII(vector<int>& piles) {
+        ios::sync_with_stdio(false);
+
         n = piles.size();
         memset(dp, -1, sizeof(dp));
 
