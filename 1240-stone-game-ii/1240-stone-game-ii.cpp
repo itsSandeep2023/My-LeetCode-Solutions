@@ -6,7 +6,7 @@ public:
     int go(vector<int>& piles, int person, int i, int m) {
         if (i >= n)
             return 0;
-
+ 
         if (dp[person][i][m] != -1)
             return dp[person][i][m];
 
