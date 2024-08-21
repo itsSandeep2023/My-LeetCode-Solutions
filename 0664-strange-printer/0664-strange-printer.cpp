@@ -37,10 +37,8 @@ public:
     }
 
     int strangePrinter(string s) {
-        ios::sync_with_stdio(false);
-        
         int n = s.size();
-        dp.assign(n , vector<int>(n, -1));
+        dp.assign(n, vector<int>(n, -1));
 
         return go(0, n - 1, s);
     }
