@@ -38,7 +38,7 @@ public:
 
     int strangePrinter(string s) {
         int n = s.size();
-        dp.assign(n + 1, vector<int>(n + 1, -1));
+        dp.assign(n , vector<int>(n, -1));
 
         return go(0, n - 1, s);
     }
