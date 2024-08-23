@@ -1,6 +1,8 @@
 class Solution {
 public:
     string fractionAddition(string expression) {
+        ios::sync_with_stdio(false);
+        
         int nume = 0;
         int deno = 1;
 
