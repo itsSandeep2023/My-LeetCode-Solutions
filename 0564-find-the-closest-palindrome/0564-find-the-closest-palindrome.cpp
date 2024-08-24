@@ -15,6 +15,7 @@ public:
     }
 
     string nearestPalindromic(string n) {
+        ios::sync_with_stdio(false);
         int len = n.size();
 
         int mid = len / 2;
