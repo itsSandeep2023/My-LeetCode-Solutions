@@ -31,10 +31,11 @@ public:
         ios::sync_with_stdio(false);
 
         int n = nums.size();
+        int m = *max_element(nums.begin(), nums.end()) + 1;
 
         vector<vector<vector<int>>> dp(
-            n, vector<vector<int>>(51, vector<int>(51, -1)));
+            n, vector<vector<int>>(m, vector<int>(m, -1)));
 
-        return countMonotonicPairs(0, 0, 50, nums, dp);
+        return countMonotonicPairs(0, 0, m - 1, nums, dp);
     }
 };
