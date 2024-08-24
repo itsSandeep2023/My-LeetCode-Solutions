@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2846-robot-collisions](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2846-robot-collisions) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3482-construct-string-with-minimum-cost](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3482-construct-string-with-minimum-cost) |
+| [3535-find-the-count-of-monotonic-pairs-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3535-find-the-count-of-monotonic-pairs-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1951-find-the-winner-of-the-circular-game](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2645-pass-the-pillow](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2645-pass-the-pillow) |
 | [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
+| [3535-find-the-count-of-monotonic-pairs-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3535-find-the-count-of-monotonic-pairs-i) |
 ## Recursion
 |  |
 | ------- |
@@ -152,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2067-maximum-number-of-points-with-cost) |
 | [3482-construct-string-with-minimum-cost](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3482-construct-string-with-minimum-cost) |
+| [3535-find-the-count-of-monotonic-pairs-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3535-find-the-count-of-monotonic-pairs-i) |
 ## Simulation
 |  |
 | ------- |
@@ -313,8 +316,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1240-stone-game-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1240-stone-game-ii) |
+| [3535-find-the-count-of-monotonic-pairs-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3535-find-the-count-of-monotonic-pairs-i) |
 ## Game Theory
 |  |
 | ------- |
 | [1240-stone-game-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1240-stone-game-ii) |
+## Combinatorics
+|  |
+| ------- |
+| [3535-find-the-count-of-monotonic-pairs-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3535-find-the-count-of-monotonic-pairs-i) |
 <!---LeetCode Topics End-->
