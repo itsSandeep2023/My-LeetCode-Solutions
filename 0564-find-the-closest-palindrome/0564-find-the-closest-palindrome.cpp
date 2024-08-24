@@ -1,15 +1,15 @@
 class Solution {
 public:
-    long halfToPalindrome(long firstHalf, bool e) {
-        long ans = firstHalf;
+    long halfToPalindrome(long left, bool e) {
+        long ans = left;
         if (!e) {
-            firstHalf = firstHalf / 10;
+            left = left / 10;
         }
 
-        while (firstHalf > 0) {
-            int digit = firstHalf % 10;
+        while (left > 0) {
+            int digit = left % 10;
             ans = (ans * 10) + digit;
-            firstHalf /= 10;
+            left /= 10;
         }
         return ans;
     }
