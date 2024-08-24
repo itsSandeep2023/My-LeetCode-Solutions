@@ -2,6 +2,7 @@ class Solution {
 public:
     long halfToPalindrome(long left, bool e) {
         long ans = left;
+
         if (!e) {
             left = left / 10;
         }
@@ -11,11 +12,13 @@ public:
             ans = (ans * 10) + digit;
             left /= 10;
         }
+
         return ans;
     }
 
     string nearestPalindromic(string n) {
         ios::sync_with_stdio(false);
+        
         int len = n.size();
 
         int mid = len / 2;
