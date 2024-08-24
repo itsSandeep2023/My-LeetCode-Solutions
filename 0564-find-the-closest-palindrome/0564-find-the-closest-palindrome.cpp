@@ -1,8 +1,8 @@
 class Solution {
 public:
-    long halfToPalindrome(long firstHalf, bool odd) {
+    long halfToPalindrome(long firstHalf, bool e) {
         long ans = firstHalf;
-        if (odd) {
+        if (!e) {
             firstHalf = firstHalf / 10;
         }
 
@@ -23,9 +23,9 @@ public:
        
         vector<long> possibleAns;
 
-        possibleAns.push_back(halfToPalindrome(firstHalf, len % 2 == 1));
-        possibleAns.push_back(halfToPalindrome(firstHalf + 1, len % 2 == 1));
-        possibleAns.push_back(halfToPalindrome(firstHalf - 1, len % 2 == 1));
+        possibleAns.push_back(halfToPalindrome(firstHalf, len % 2 == 0));
+        possibleAns.push_back(halfToPalindrome(firstHalf + 1, len % 2 == 0));
+        possibleAns.push_back(halfToPalindrome(firstHalf - 1, len % 2 == 0));
         possibleAns.push_back((long)pow(10, len - 1) - 1);
         possibleAns.push_back((long)pow(10, len) + 1);
 
