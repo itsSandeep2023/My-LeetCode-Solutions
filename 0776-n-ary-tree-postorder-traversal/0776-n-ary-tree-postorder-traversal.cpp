@@ -20,19 +20,17 @@ public:
 
 class Solution {
 public:
-    void pot(Node* r, vector<int>& ans)
-    {
-        if(!r) return;
+    void pot(Node* r, vector<int>& ans) {
+        if (!r)
+            return;
 
-        for(auto child : r->children)
+        for (auto child : r->children)
             pot(child, ans);
 
         ans.push_back(r->val);
     }
 
     vector<int> postorder(Node* root) {
-        ios::sync_with_stdio(false);
-        
         vector<int> ans;
         pot(root, ans);
         return ans;
