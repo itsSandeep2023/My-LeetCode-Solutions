@@ -31,6 +31,8 @@ public:
     }
 
     vector<int> postorder(Node* root) {
+        ios::sync_with_stdio(false);
+        
         vector<int> ans;
         pot(root, ans);
         return ans;
