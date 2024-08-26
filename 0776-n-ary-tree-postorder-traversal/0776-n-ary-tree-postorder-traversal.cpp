@@ -20,7 +20,7 @@ public:
 
 class Solution {
 public:
-    void pot(Node* r, vector<int>& ans) {
+    void pot(Node* r, std::vector<int>& ans) {
         if (!r) {
             return;
         }
@@ -33,7 +33,7 @@ public:
     }
 
     vector<int> postorder(Node* root) {
-        vector<int> ans;
+        std::vector<int> ans;
         pot(root, ans);
         return ans;
     }
