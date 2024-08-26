@@ -24,7 +24,7 @@ public:
     {
         if(!r) return;
 
-        for(auto *child : r->children)
+        for(auto child : r->children)
             pot(child, ans);
 
         ans.push_back(r->val);
