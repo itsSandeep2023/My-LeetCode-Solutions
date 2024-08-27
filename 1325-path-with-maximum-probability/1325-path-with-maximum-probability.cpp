@@ -1,6 +1,8 @@
 class Solution {
 public:
     double maxProbability(int n, vector<vector<int>>& edges, vector<double>& probs, int start, int end) {
+        ios::sync_with_stdio(false);
+        
         unordered_map<int , vector<pair<int , double>>> adj;
         vector<double> ans(n, 0);
         ans[start] = 1;
