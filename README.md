@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1741-sort-array-by-increasing-frequency](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1803-average-waiting-time](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2035-count-sub-islands](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2035-count-sub-islands) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
@@ -190,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1207-delete-nodes-and-return-forest](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
+| [2035-count-sub-islands](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2035-count-sub-islands) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [3486-count-the-number-of-good-nodes](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3486-count-the-number-of-good-nodes) |
 ## Binary Tree
@@ -233,6 +235,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0112-path-sum](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0112-path-sum) |
 | [0999-regions-cut-by-slashes](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0999-regions-cut-by-slashes) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
+| [2035-count-sub-islands](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2035-count-sub-islands) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2171-second-minimum-time-to-reach-destination) |
 ## Greedy
 |  |
@@ -264,6 +267,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1496-lucky-numbers-in-a-matrix](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
+| [2035-count-sub-islands](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2035-count-sub-islands) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -311,6 +315,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0999-regions-cut-by-slashes](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0999-regions-cut-by-slashes) |
+| [2035-count-sub-islands](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2035-count-sub-islands) |
 ## Strongly Connected Component
 |  |
 | ------- |
