@@ -18,6 +18,8 @@ public:
     }
 
     int countSubIslands(vector<vector<int>>& grid1, vector<vector<int>>& grid2) {
+        ios::sync_with_stdio(false);
+        
         int m = grid1.size();
         int n = grid1[0].size();
 
