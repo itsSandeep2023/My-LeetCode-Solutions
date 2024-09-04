@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2846-robot-collisions](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2846-robot-collisions) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3482-construct-string-with-minimum-cost](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3482-construct-string-with-minimum-cost) |
+| [3495-k-th-nearest-obstacle-queries](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3495-k-th-nearest-obstacle-queries) |
 | [3535-find-the-count-of-monotonic-pairs-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3535-find-the-count-of-monotonic-pairs-i) |
 ## Hash Table
 |  |
@@ -284,6 +285,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0948-sort-an-array](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0948-sort-an-array) |
 | [1325-path-with-maximum-probability](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1325-path-with-maximum-probability) |
 | [2803-modify-graph-edge-weights](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2803-modify-graph-edge-weights) |
+| [3495-k-th-nearest-obstacle-queries](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3495-k-th-nearest-obstacle-queries) |
 ## Merge Sort
 |  |
 | ------- |
