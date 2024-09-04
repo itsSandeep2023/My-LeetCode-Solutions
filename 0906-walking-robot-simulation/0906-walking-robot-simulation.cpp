@@ -1,6 +1,8 @@
 class Solution {
 public:
     int robotSim(vector<int>& commands, vector<vector<int>>& obstacles) {
+        ios::sync_with_stdio(false);
+        
         unordered_set<string> st;
 
         for (auto& obs : obstacles) {
