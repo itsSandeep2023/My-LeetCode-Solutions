@@ -9,11 +9,10 @@ public:
             int y = query[1];
             int dist = abs(x) + abs(y);
 
-            if (pq.size() < k) {
-                pq.push(dist);
-            } else if (dist < pq.top()) {
+            pq.push(dist);
+
+            if (pq.size() > k) {
                 pq.pop();
-                pq.push(dist);
             }
 
             if (pq.size() < k) {
