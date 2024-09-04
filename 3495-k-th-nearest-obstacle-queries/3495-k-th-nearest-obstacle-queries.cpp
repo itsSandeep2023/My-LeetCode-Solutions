@@ -1,6 +1,8 @@
 class Solution {
 public:
     vector<int> resultsArray(vector<vector<int>>& queries, int k) {
+        ios::sync_with_stdio(false);
+        
         priority_queue<int> pq;
         vector<int> ans;
 
