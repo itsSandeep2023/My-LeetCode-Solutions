@@ -1,6 +1,8 @@
 class Solution {
 public:
     vector<int> missingRolls(vector<int>& rolls, int mean, int n) {
+        ios::sync_with_stdio(false);
+
         long long sum{0};
 
         for (const auto& x : rolls)
