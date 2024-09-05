@@ -1,6 +1,8 @@
 class Solution {
 public:
     int robotSim(vector<int>& commands, vector<vector<int>>& obstacles) {
+        ios::sync_with_stdio(false);
+        
         int dir1[] = {1, 0, -1, 0};
         int dir2[] = {0, 1, 0, -1};
 
