@@ -34,7 +34,6 @@ public:
                     head=head->next;
                 }
                 c=c->next;
-                temp->next = NULL;
                 delete temp;
             }
             else
