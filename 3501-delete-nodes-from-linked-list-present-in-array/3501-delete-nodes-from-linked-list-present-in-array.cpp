@@ -24,7 +24,6 @@ public:
         {
             if(st.count(c->val))
             {
-                ListNode* temp = c;
                 if(p)
                 {
                     p->next = c->next;
@@ -33,14 +32,12 @@ public:
                 {
                     head=head->next;
                 }
-                c=c->next;
-                delete temp;
             }
             else
             {
                 p=c;
-                c=c->next;
             }
+            c=c->next;
         }
 
         return head;
