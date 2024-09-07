@@ -30,15 +30,19 @@ public:
             return false;
 
         if (head->val == root->val)
-            return go(head->next, root->left) or
-                   go(head->next, root->right);
+            return go(head->next, root->left) or go(head->next, root->right);
         return false;
     }
 
-    bool isSubPath(ListNode* head, TreeNode* root) {
+    bool check(ListNode* head, TreeNode* root) {
         if (!root)
             return false;
         return go(head, root) or isSubPath(head, root->left) or
                isSubPath(head, root->right);
+    }
+
+    bool isSubPath(ListNode* head, TreeNode* root) {
+        ios::sync_with_stdio(false);
+        return check(head, root);
     }
 };
