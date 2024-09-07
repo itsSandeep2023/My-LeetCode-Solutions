@@ -1,6 +1,8 @@
 class Solution {
 public:
     string minWindow(string s, string t) {
+        ios::sync_with_stdio(false);
+        
         int FP[256] = {0};
         int FS[256] = {0};
 
