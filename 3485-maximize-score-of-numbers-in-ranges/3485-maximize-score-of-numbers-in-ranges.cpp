@@ -2,12 +2,12 @@ class Solution {
 public:
     bool canChooseWithScore(const vector<int>& start, int d, int score) {
         int n = start.size();
-        long long prev_chosen = start[0];
+        long long pc = start[0];
 
         for (int i = 1; i < n; ++i) {
-            long long lower_bound = prev_chosen + score;
-            if (lower_bound <= start[i] + d) {
-                prev_chosen = max(lower_bound, (long long)(start[i]));
+            long long lb = pc + score;
+            if (lb <= start[i] + d) {
+                pc = max(lb, (long long)(start[i]));
             } else {
                 return false;
             }
