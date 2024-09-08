@@ -1,24 +1,34 @@
 class Solution {
 public:
-    int maxPossibleScore(vector<int>& start, int d) {
-        ios::sync_with_stdio(false);
-        sort(start.begin(), start.end());
+    bool canChooseWithScore(const vector<int>& start, int d, int score) {
+        int n = start.size();
+        long long pc = start[0];
 
-        auto check = [&](long long lim) {
-            long long now = start[0];
-            for (int i = 1; i < start.size(); i++) {
-                now = max(now + lim, 1LL * start[i]);
-                if (now > start[i] + d) return false;
+        for (int i = 1; i < n; ++i) {
+            long long lb = pc + score;
+            if (lb <= start[i] + d) {
+                pc = max(lb, (long long)(start[i]));
+            } else {
+                return false;
             }
-            return true;
-        };
-
-        long long head = 0, tail = 2e9;
-        while (head < tail) {
-            long long mid = (head + tail + 1) >> 1;
-            if (check(mid)) head = mid;
-            else tail = mid - 1;
         }
-        return head;
+        return true;
+    }
+
+    int maxPossibleScore(vector<int>& start, int d) {
+        sort(start.begin(), start.end());
+        int low = 0, high = 2e9, ans = 0;
+
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            if (canChooseWithScore(start, d, mid)) {
+                ans = mid;
+                low = mid + 1;
+            } else {
+                high = mid - 1;
+            }
+        }
+
+        return ans;
     }
 };
