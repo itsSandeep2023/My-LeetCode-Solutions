@@ -11,6 +11,8 @@
 class Solution {
 public:
     vector<vector<int>> spiralMatrix(int m, int n, ListNode* head) {
+        ios::sync_with_stdio(false);
+
         vector<vector<int>> ans(m, vector<int>(n, -1));
 
         int left = {0};
@@ -30,8 +32,7 @@ public:
             i = ++top;
 
             // top to down
-            while (head and i<=down)
-            {
+            while (head and i <= down) {
                 ans[i++][right] = head->val;
                 head = head->next;
             }
@@ -39,8 +40,7 @@ public:
             i = --right;
 
             // right to left
-            while(head and i>=left)
-            {
+            while (head and i >= left) {
                 ans[down][i--] = head->val;
                 head = head->next;
             }
@@ -48,12 +48,11 @@ public:
             i = --down;
 
             // down to top
-            while(head and i>=top)
-            {
+            while (head and i >= top) {
                 ans[i--][left] = head->val;
                 head = head->next;
             }
-            
+
             i = ++left;
         }
 
