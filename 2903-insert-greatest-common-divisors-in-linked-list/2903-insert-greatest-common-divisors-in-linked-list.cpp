@@ -18,7 +18,6 @@ public:
         for(int i{1}; i<=(b/2); i++)
         {
             int c = b/i;
-            cout<<c<<" ";
 
             if(a%c == 0 and b%c == 0)
                 return c;
@@ -29,6 +28,7 @@ public:
 
     ListNode* insertGreatestCommonDivisors(ListNode* head) {
         ios::sync_with_stdio(false);
+        
         ListNode* cur = head;
         while(cur->next)
         {
