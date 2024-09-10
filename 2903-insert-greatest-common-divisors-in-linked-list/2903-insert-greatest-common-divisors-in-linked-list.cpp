@@ -13,14 +13,21 @@ public:
 
     int GCD(int a, int b)
     {
-        if(b==0) return a;
+        if(a<b) swap(a, b);
+        
+        for(int i{1}; i<=(b/2); i++)
+        {
+            int c = b/i;
 
-        return GCD(b, a%b);
+            if(a%c == 0 and b%c == 0)
+                return c;
+        }
+
+        return 1;
     }
 
     ListNode* insertGreatestCommonDivisors(ListNode* head) {
         ios::sync_with_stdio(false);
-        cin.tie(nullptr);
         
         ListNode* cur = head;
         while(cur->next)
