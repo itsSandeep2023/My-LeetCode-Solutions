@@ -8,7 +8,6 @@ public:
     }
 
     int findGCD(vector<int>& nums) {
-        ios::sync_with_stdio(false);
         
         int sm = nums[0];
         int lg = nums[0];
