@@ -1,5 +1,12 @@
 class Solution {
 public:
+
+    int GCD(int a, int b)
+    {
+        if(b==0) return a;
+        return GCD(b, a%b);
+    }
+
     int findGCD(vector<int>& nums) {
         ios::sync_with_stdio(false);
         
@@ -11,16 +18,6 @@ public:
             lg = max(lg, x);
         }
 
-        int k = (sm/2);
-
-        for(int i{1}; i<=k; i++)
-        {
-            int c = (sm / i);
-
-            if(sm%c==0 and lg%c==0)
-                return c;
-        }
-
-        return 1;
+        return GCD(sm, lg);
     }
 };
