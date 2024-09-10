@@ -20,6 +20,7 @@ public:
 
     ListNode* insertGreatestCommonDivisors(ListNode* head) {
         ios::sync_with_stdio(false);
+        cin.tie(nullptr);
         
         ListNode* cur = head;
         while(cur->next)
