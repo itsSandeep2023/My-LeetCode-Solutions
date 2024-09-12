@@ -2,26 +2,21 @@ class Solution {
 public:
     int countConsistentStrings(string allowed, vector<string>& words) {
         ios::sync_with_stdio(false);
-        
+
         int ans{0};
-        unordered_set<char> st;
+        int mask = 0;
 
-        for(auto& ch : allowed)
-            st.insert(ch);
+        for (auto& ch : allowed)
+            mask |= (1 << (ch - 'a'));
 
-        for( auto& word : words)
-        {
+        for (auto& word : words) {
             bool allow = true;
-            for( auto& ch: word)
-            {
-                if(!st.count(ch))
-                {
+            for (auto& ch : word) {
+                if (!(mask & (1 << (ch - 'a'))))
                     allow = false;
-                    break;
-                }
             }
 
-            if(allow)
+            if (allow)
                 ans++;
         }
 
