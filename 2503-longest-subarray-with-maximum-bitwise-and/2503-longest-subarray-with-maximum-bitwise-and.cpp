@@ -1,6 +1,8 @@
 class Solution {
 public:
     int longestSubarray(vector<int>& nums) {
+        ios::sync_with_stdio(false);
+        
         int ans{1};
 
         int mx = *max_element(nums.begin(), nums.end());
