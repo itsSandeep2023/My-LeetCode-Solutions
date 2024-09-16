@@ -47,6 +47,8 @@ public:
     };
 
     int minValidStrings(vector<string>& words, string target) {
+        ios::sync_with_stdio(false);
+        
         int n = target.size();
         Trie t;
         vector<int> dp(n, -1);
