@@ -1,6 +1,8 @@
 class Solution {
 public:
     int findMinDifference(vector<string>& timePoints) {
+        ios::sync_with_stdio(false);
+        
         vector<int> times;
         for(auto& x : timePoints)
             times.push_back(stoi(x.substr(0,2))*60 + stoi(x.substr(3,2)));
