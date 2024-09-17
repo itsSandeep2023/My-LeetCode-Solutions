@@ -1,34 +1,25 @@
 class Solution {
 public:
     vector<string> uncommonFromSentences(string s1, string s2) {
-        unordered_map<string, int> st;
+        unordered_map<string, int> mp;
 
         stringstream ss1(s1);
         stringstream ss2(s2);
 
         string token;
 
-        while(ss1>>token){
-            st[token]++;
-        }
+        while(ss1>>token)
+            mp[token]++;
+
+        while(ss2>>token)
+            mp[token]++;
 
         vector<string> ans;
-        while(ss2>>token)
-        {
-            if(!st[token])
-            {
-                ans.push_back(token);
-            }
-            else{
-                st[token]++;
-            }
 
-        }
-
-        for(auto& w : st)
+        for(auto& [w, n] : mp)
         {
-            if(w.second == 1)
-                ans.push_back(w.first);
+            if(n == 1)
+                ans.push_back(w);
         }
 
         return ans;
