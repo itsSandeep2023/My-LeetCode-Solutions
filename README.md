@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3482-construct-string-with-minimum-cost](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3482-construct-string-with-minimum-cost) |
 | [3495-k-th-nearest-obstacle-queries](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3495-k-th-nearest-obstacle-queries) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+| [3518-maximum-multiplication-score](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3518-maximum-multiplication-score) |
 | [3535-find-the-count-of-monotonic-pairs-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3535-find-the-count-of-monotonic-pairs-i) |
 ## Hash Table
 |  |
@@ -193,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2067-maximum-number-of-points-with-cost) |
 | [3482-construct-string-with-minimum-cost](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3482-construct-string-with-minimum-cost) |
+| [3518-maximum-multiplication-score](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3518-maximum-multiplication-score) |
 | [3535-find-the-count-of-monotonic-pairs-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3535-find-the-count-of-monotonic-pairs-i) |
 ## Simulation
 |  |
