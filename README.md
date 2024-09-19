@@ -98,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0002-add-two-numbers) |
 | [0007-reverse-integer](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0007-reverse-integer) |
+| [0241-different-ways-to-add-parentheses](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0263-ugly-number](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0263-ugly-number) |
 | [0264-ugly-number-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0264-ugly-number-ii) |
 | [0273-integer-to-english-words](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0273-integer-to-english-words) |
@@ -119,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0002-add-two-numbers) |
 | [0025-reverse-nodes-in-k-group](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0025-reverse-nodes-in-k-group) |
+| [0241-different-ways-to-add-parentheses](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0273-integer-to-english-words) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
@@ -130,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0008-string-to-integer-atoi](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0008-string-to-integer-atoi) |
 | [0076-minimum-window-substring](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0076-minimum-window-substring) |
 | [0179-largest-number](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0179-largest-number) |
+| [0241-different-ways-to-add-parentheses](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0273-integer-to-english-words) |
 | [0539-minimum-time-difference](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0539-minimum-time-difference) |
 | [0564-find-the-closest-palindrome](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0564-find-the-closest-palindrome) |
@@ -185,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0005-longest-palindromic-substring) |
 | [0053-maximum-subarray](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0053-maximum-subarray) |
+| [0241-different-ways-to-add-parentheses](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0264-ugly-number-ii) |
 | [0650-2-keys-keyboard](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0650-2-keys-keyboard) |
 | [0664-strange-printer](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0664-strange-printer) |
@@ -422,4 +426,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+## Memoization
+|  |
+| ------- |
+| [0241-different-ways-to-add-parentheses](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0241-different-ways-to-add-parentheses) |
 <!---LeetCode Topics End-->
