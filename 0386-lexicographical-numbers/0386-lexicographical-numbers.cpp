@@ -24,6 +24,7 @@ public:
 
         for(int i{1}; i<=9; i++)
         {
+            if(i>n) return ans;
             solve(i, n, ans);
         }
 
