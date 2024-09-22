@@ -17,14 +17,16 @@ public:
     }
 
     int findKthNumber(int n, int k) {
+        ios::sync_with_stdio(false);
+        
         int curr = 1;
-        k -= 1; //Since we start from the first number (1), we need k-1 more numbers
+        k -= 1;
 
         while(k > 0) {
             int count = Count(curr, curr+1, n);
             if(count  <= k) {
                 curr++;
-                k -= count; //skipping the elements under curr prefix tree
+                k -= count;
             } else {
                 curr *= 10;
                 k -= 1;
