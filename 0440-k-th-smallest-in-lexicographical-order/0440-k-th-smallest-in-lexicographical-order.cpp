@@ -17,8 +17,6 @@ public:
     }
 
     int findKthNumber(int n, int k) {
-        ios::sync_with_stdio(false);
-        
         int curr = 1;
         k -= 1;
 
