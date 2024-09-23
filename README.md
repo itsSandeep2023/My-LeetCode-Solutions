@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2502-sort-the-people](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2502-sort-the-people) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2727-number-of-senior-citizens](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2727-number-of-senior-citizens) |
+| [2755-extra-characters-in-a-string](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2755-extra-characters-in-a-string) |
 | [2846-robot-collisions](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2846-robot-collisions) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3482-construct-string-with-minimum-cost](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3482-construct-string-with-minimum-cost) |
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2163-kth-distinct-string-in-an-array](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2502-sort-the-people) |
+| [2755-extra-characters-in-a-string](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2755-extra-characters-in-a-string) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Linked List
@@ -151,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2502-sort-the-people](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2502-sort-the-people) |
 | [2727-number-of-senior-citizens](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2727-number-of-senior-citizens) |
+| [2755-extra-characters-in-a-string](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2755-extra-characters-in-a-string) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
@@ -200,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1511-count-number-of-teams](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1511-count-number-of-teams) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2067-maximum-number-of-points-with-cost) |
+| [2755-extra-characters-in-a-string](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2755-extra-characters-in-a-string) |
 | [3482-construct-string-with-minimum-cost](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3482-construct-string-with-minimum-cost) |
 | [3518-maximum-multiplication-score](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3518-maximum-multiplication-score) |
 | [3535-find-the-count-of-monotonic-pairs-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3535-find-the-count-of-monotonic-pairs-i) |
@@ -449,4 +453,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0386-lexicographical-numbers](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0386-lexicographical-numbers) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0440-k-th-smallest-in-lexicographical-order) |
+| [2755-extra-characters-in-a-string](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2755-extra-characters-in-a-string) |
 <!---LeetCode Topics End-->
