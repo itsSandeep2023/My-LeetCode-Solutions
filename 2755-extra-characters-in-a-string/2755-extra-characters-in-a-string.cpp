@@ -1,8 +1,6 @@
 class Solution {
 public:
     int minExtraChar(string s, vector<string>& dictionary) {
-        ios::sync_with_stdio(false);
-
         int n = s.size();
 
         unordered_set<string> st(dictionary.begin(), dictionary.end());
