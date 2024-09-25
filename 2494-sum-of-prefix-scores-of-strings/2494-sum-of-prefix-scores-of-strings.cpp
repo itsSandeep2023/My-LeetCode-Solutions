@@ -4,7 +4,7 @@ class Solution {
 
     class Node {
         int cnt;
-        Node* childrens[26];  // Use 26 for lowercase English letters
+        Node* childrens[26];                    // Use 26 for lowercase English letters
 
     public:
         Node() {
@@ -27,7 +27,7 @@ class Solution {
             int n = word.size();
             Node* t = root;
             for (int i = 0; i < n; i++) {
-                int index = word[i] - 'a';  // Map character to index 0-25
+                int index = word[i] - 'a';      // Map character to index 0-25
                 if (!t->childrens[index])
                     t->childrens[index] = new Node();
 
@@ -41,11 +41,11 @@ class Solution {
             Node* t = root;
             int cnt = 0;
             for (int i = 0; i < n; i++) {
-                int index = word[i] - 'a';  // Map character to index 0-25
+                int index = word[i] - 'a';      // Map character to index 0-25
                 if (!t->childrens[index])
                     break;
                 t = t->childrens[index];
-                cnt += t->cnt;  // Add the count of this prefix
+                cnt += t->cnt;                  // Add the count of this prefix
             }
 
             return cnt;
