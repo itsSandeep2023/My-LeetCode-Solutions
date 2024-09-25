@@ -56,6 +56,8 @@ class Solution {
 
 public:
     vector<int> sumPrefixScores(vector<string>& words) {
+        ios::sync_with_stdio(false);
+        
         Trie t;
 
         for (auto& x : words)
