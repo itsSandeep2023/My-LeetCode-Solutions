@@ -4,11 +4,11 @@ class Solution {
 
     class Node {
         int cnt;
-        Node* childrens[26];
+        Node* childrens[26];  // Use 26 for lowercase English letters
 
     public:
         Node() {
-            for (int i{0}; i < 26; i++) {
+            for (int i = 0; i < 26; i++) {
                 childrens[i] = NULL;
             }
             cnt = 0;
@@ -23,31 +23,29 @@ class Solution {
     public:
         Trie() { root = new Node(); }
 
-        void insert(string word) {
+        void insert(const string& word) {
             int n = word.size();
             Node* t = root;
-            int i{0};
-            while (i < n) {
-                if (!t->childrens[word[i] - 'a'])
-                    t->childrens[word[i] - 'a'] = new Node();
+            for (int i = 0; i < n; i++) {
+                int index = word[i] - 'a';  // Map character to index 0-25
+                if (!t->childrens[index])
+                    t->childrens[index] = new Node();
 
-                t = t->childrens[word[i] - 'a'];
+                t = t->childrens[index];
                 t->cnt++;
-                i++;
             }
         }
 
-        int find(string& word) {
+        int find(const string& word) {
             int n = word.size();
             Node* t = root;
-            int i{0};
-            int cnt{0};
-            while (i < n) {
-                if (t->childrens[word[i] - 'a'] == NULL)
+            int cnt = 0;
+            for (int i = 0; i < n; i++) {
+                int index = word[i] - 'a';  // Map character to index 0-25
+                if (!t->childrens[index])
                     break;
-                t = t->childrens[word[i] - 'a'];
-                cnt += t->cnt;
-                i++;
+                t = t->childrens[index];
+                cnt += t->cnt;  // Add the count of this prefix
             }
 
             return cnt;
@@ -56,16 +54,16 @@ class Solution {
 
 public:
     vector<int> sumPrefixScores(vector<string>& words) {
-        ios::sync_with_stdio(false);
-        
         Trie t;
 
-        for (auto& x : words)
+        // Insert each word into the Trie
+        for (const auto& x : words)
             t.insert(x);
 
         vector<int> ans;
 
-        for (auto& x : words)
+        // Calculate prefix scores for each word
+        for (const auto& x : words)
             ans.push_back(t.find(x));
 
         return ans;
