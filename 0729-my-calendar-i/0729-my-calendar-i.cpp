@@ -1,24 +1,31 @@
-#define P pair<int, int>
 class MyCalendar {
 public:
-    
-    vector<P> calendar;
+    set<pair<int, int>> st;
     MyCalendar() {
-
+        
     }
     
     bool book(int start, int end) {
-        for(int i = 0; i<calendar.size(); i++) {
-            P curr = calendar[i];
-            if(!(end <= curr.first || start >= curr.second))
-                return false;
+        //Find the first event that starts after or st the same time of {start, end}
+        auto it = st.lower_bound({start, end}); //Log(N)
+
+        //Check if the current event overlaps with the next event
+        if(it != st.end() && it->first < end) {
+            return false;
         }
-        
-        calendar.push_back({start, end});
+
+        //Check if the current event overlaps with the previous event
+        if(it != st.begin()) {
+            auto prevIt = prev(it);
+            if(start < prevIt->second) {
+                return false;
+            }
+        }
+
+        st.insert({start, end});
         return true;
     }
 };
-
 
 /**
  * Your MyCalendar object will be instantiated and called as such:
