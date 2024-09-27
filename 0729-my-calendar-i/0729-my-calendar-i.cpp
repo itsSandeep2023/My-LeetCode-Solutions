@@ -1,17 +1,19 @@
 class MyCalendar {
+    set<pair<int, int>> overallBookings;
+
 public:
-    set<pair<int, int>> st;
     MyCalendar() { ios::sync_with_stdio(false); }
 
+    bool checkOverlap(int first, int second, int start, int end) {
+        return max(first, start) < min(second, end);
+    }
+
     bool book(int start, int end) {
-        auto it = st.upper_bound({start, end});
+        for (pair<int, int> region : overallBookings)
+            if (checkOverlap(region.first, region.second, start, end))
+                return false;
 
-        if (it != st.end() && end > it->second) {
-
-            return false;
-        }
-
-        st.insert({end, start});
+        overallBookings.insert({start, end});
         return true;
     }
 };
