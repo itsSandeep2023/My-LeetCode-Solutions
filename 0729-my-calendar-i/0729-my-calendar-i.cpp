@@ -1,15 +1,17 @@
 class MyCalendar {
-    set<pair<int, int>> st;
-
 public:
+    set<pair<int, int>> st;
     MyCalendar() { ios::sync_with_stdio(false); }
 
     bool book(int start, int end) {
-        for (pair<int, int> curr : st)
-            if (max(curr.first, start) < min(curr.second, end))
-                return false;
+        auto it = st.upper_bound({start, end});
 
-        st.insert({start, end});
+        if (it != st.end() && end > it->second) {
+
+            return false;
+        }
+
+        st.insert({end, start});
         return true;
     }
 };
