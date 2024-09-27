@@ -5,9 +5,8 @@ public:
 
     bool book(int start, int end) {
         auto it = st.upper_bound({start, end});
-
+        cout<<it->first<<" "<< it->second<<" - ";
         if (it != st.end() && end > it->second) {
-
             return false;
         }
 
