@@ -7,6 +7,8 @@ class MyCircularDeque {
 
 public:
     MyCircularDeque(int k) {
+        ios::sync_with_stdio(false);
+        
         this->k = k;
         dq = vector<int>(k, 0);
         c = 0;
