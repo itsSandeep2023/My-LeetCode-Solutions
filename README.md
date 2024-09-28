@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0719-find-k-th-smallest-pair-distance](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0729-my-calendar-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0731-my-calendar-ii) |
+| [0859-design-circular-deque](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0859-design-circular-deque) |
 | [0890-lemonade-change](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0890-lemonade-change) |
 | [0906-walking-robot-simulation](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0906-walking-robot-simulation) |
 | [0921-spiral-matrix-iii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0921-spiral-matrix-iii) |
@@ -94,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0002-add-two-numbers) |
 | [0025-reverse-nodes-in-k-group](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0025-reverse-nodes-in-k-group) |
 | [0725-split-linked-list-in-parts](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0725-split-linked-list-in-parts) |
+| [0859-design-circular-deque](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0859-design-circular-deque) |
 | [1484-linked-list-in-binary-tree](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1484-linked-list-in-binary-tree) |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2299-merge-nodes-in-between-zeros) |
@@ -277,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0239-sliding-window-maximum) |
+| [0859-design-circular-deque](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0859-design-circular-deque) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Bit Manipulation
 |  |
@@ -472,6 +475,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0729-my-calendar-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0731-my-calendar-ii) |
+| [0859-design-circular-deque](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0859-design-circular-deque) |
 ## Segment Tree
 |  |
 | ------- |
