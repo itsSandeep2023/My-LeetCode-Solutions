@@ -1,7 +1,7 @@
 class Solution {
 public:
     long long maximumTotalSum(vector<int>& mxh) {
-        ios::sync_with_stdio(false);
+        // ios::sync_with_stdio(false);
 
         sort(mxh.begin(), mxh.end());
         int n = mxh.size();
