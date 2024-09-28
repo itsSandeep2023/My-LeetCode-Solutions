@@ -1,32 +1,21 @@
 class Solution {
 public:
     long long maximumTotalSum(vector<int>& mxh) {
-        ios::sync_with_stdio(false);
+        // ios::sync_with_stdio(false);
 
         sort(mxh.begin(), mxh.end());
         int n = mxh.size();
 
-        stack<pair<long long, long long>> st;
+        long long ans = mxh[n-1];
+        int cmx = ans;
 
-        if (mxh[0] > 1)
-            st.push({0, mxh[0] - 1});
+        for (int i = n - 2; i >= 0 ; i--) {
+            cmx = min(mxh[i], cmx-1);
 
-        long long ans = mxh[0];
+            if(cmx<=0)
+                return -1;
 
-        for (int i{1}; i < n; i++) {
-            if (mxh[i] == mxh[i - 1]) {
-                if (st.empty())
-                    return -1;
-
-                ans += st.top().second--;
-
-                if (st.top().second <= st.top().first)
-                    st.pop();
-            } else {
-                ans += mxh[i];
-                if (mxh[i] - 1 > mxh[i - 1])
-                    st.push({mxh[i - 1], mxh[i] - 1});
-            }
+            ans+= cmx;
         }
 
         return ans;
