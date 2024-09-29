@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0076-minimum-window-substring) |
 | [0264-ugly-number-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0264-ugly-number-ii) |
+| [0432-all-oone-data-structure](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0432-all-oone-data-structure) |
 | [0652-find-duplicate-subtrees](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0652-find-duplicate-subtrees) |
 | [0726-number-of-atoms](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0726-number-of-atoms) |
 | [0906-walking-robot-simulation](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0906-walking-robot-simulation) |
@@ -94,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0002-add-two-numbers) |
 | [0025-reverse-nodes-in-k-group](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0025-reverse-nodes-in-k-group) |
+| [0432-all-oone-data-structure](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0432-all-oone-data-structure) |
 | [0725-split-linked-list-in-parts](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0725-split-linked-list-in-parts) |
 | [0859-design-circular-deque](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0859-design-circular-deque) |
 | [1484-linked-list-in-binary-tree](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1484-linked-list-in-binary-tree) |
@@ -473,6 +475,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0432-all-oone-data-structure](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0432-all-oone-data-structure) |
 | [0729-my-calendar-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0731-my-calendar-ii) |
 | [0859-design-circular-deque](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0859-design-circular-deque) |
@@ -486,4 +489,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0729-my-calendar-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0731-my-calendar-ii) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0432-all-oone-data-structure](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0432-all-oone-data-structure) |
 <!---LeetCode Topics End-->
