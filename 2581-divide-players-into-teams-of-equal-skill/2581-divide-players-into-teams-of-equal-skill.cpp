@@ -1,26 +1,29 @@
 class Solution {
 public:
     long long dividePlayers(vector<int>& skill) {
-        unordered_map<int, int> mp;
+        int n = skill.size();
+        vector<int> sk(1001, 0);
 
-        int sm = INT_MAX;
-        int mx = 0;
-
+        int sum{0};
         for (const auto& x : skill) {
-            mp[x]++;
-            sm = min(sm, x);
-            mx = max(mx, x);
+            sk[x]++;
+            sum+=x;
         }
 
+        int teams = n/2;
+        if(sum%teams != 0)
+            return -1;
+
+        int target = sum/teams;
+        
         long long ans{0};
-        int target = sm + mx;
 
         for (const auto& x : skill) {
             int t = abs(target - x);
 
-            if (mp[t] > 0) {
+            if (sk[t] > 0) {
                 ans += x * t;
-                mp[t]--;
+                sk[t]--;
             } else {
                 return -1;
             }
