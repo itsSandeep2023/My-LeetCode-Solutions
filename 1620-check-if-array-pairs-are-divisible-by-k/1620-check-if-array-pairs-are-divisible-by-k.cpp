@@ -9,7 +9,7 @@ public:
         if (mp[0] % 2 != 0)
             return false;
 
-        for (int i{1}; i < k; i++) {
+        for (int i{1}; i <= k/2; i++) {
             int counterHalf = k - i;
             if (mp[counterHalf] != mp[i])
                 return false;
