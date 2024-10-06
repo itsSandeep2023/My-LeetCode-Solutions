@@ -5,7 +5,6 @@ public:
     int n;
 
     CustomStack(int maxSize) {
-        ios::sync_with_stdio(false);
         n = maxSize;
     }
     
