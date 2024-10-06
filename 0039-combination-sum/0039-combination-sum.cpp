@@ -18,6 +18,8 @@ public:
     }
     
     vector<vector<int>> combinationSum(vector<int>& cnd, int target) {
+        ios::sync_with_stdio(false);
+        
         vector<vector<int>> res;
         vector<int> vec;
         int cursum{0};
