@@ -1,6 +1,8 @@
 class Solution {
 public:
     bool areSentencesSimilar(string s1, string s2) {
+        ios::sync_with_stdio(false);
+        
         if(s1.size()< s2.size()) swap(s1, s2);
 
         vector<string> ws1;
