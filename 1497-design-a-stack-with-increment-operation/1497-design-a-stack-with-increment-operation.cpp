@@ -16,7 +16,7 @@ public:
     }
     
     int pop() {
-        if(st.size() == 0) {
+        if(st.empty()) {
             return -1;
         }
 
