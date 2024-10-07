@@ -1,4 +1,5 @@
 class AllOne {
+private:
     struct Node {
         int count;
         list<string> keys;
@@ -9,30 +10,29 @@ class AllOne {
     unordered_map<string, Node*> mp;
 
     Node *head, *tail;
-    void addNode(Node* prevNode, int count) {
+
+    Node* addNodeAfter(Node* prevNode, int count) {
         Node* newNode = new Node(count);
         newNode->next = prevNode->next;
         newNode->prev = prevNode;
-        if (newNode->next) {
-            newNode->next->prev = newNode;
+        if (prevNode->next) {
+            prevNode->next->prev = newNode;
         }
-
         prevNode->next = newNode;
-        if (prevNode == tail) {
+        if (tail == prevNode) {
             tail = newNode;
         }
+        return newNode;
     }
 
     void removeNode(Node* node) {
         node->prev->next = node->next;
-        if (node->next != nullptr) {
+        if (node->next) {
             node->next->prev = node->prev;
         }
-
-        if (node == tail) {
+        if (tail == node) {
             tail = node->prev;
         }
-
         delete node;
     }
 
@@ -42,23 +42,20 @@ public:
         tail = head;
     }
 
-
     void inc(string key) {
-        if (!mp.count(key)) {
-            if (head->next == nullptr or head->next->count != 1) {
-                addNode(head, 1);
+        if (mp.find(key) == mp.end()) {
+            if (head->next == nullptr || head->next->count != 1) {
+                addNodeAfter(head, 1);
             }
-
             head->next->keys.push_front(key);
             mp[key] = head->next;
         } else {
             Node* curNode = mp[key];
             int curCount = curNode->count;
-            if (curNode->next == nullptr or
+            if (curNode->next == nullptr ||
                 curNode->next->count != curCount + 1) {
-                addNode(curNode, curCount + 1);
+                addNodeAfter(curNode, curCount + 1);
             }
-
             curNode->next->keys.push_front(key);
             mp[key] = curNode->next;
             curNode->keys.remove(key);
@@ -72,43 +69,25 @@ public:
         Node* curNode = mp[key];
         int curCount = curNode->count;
 
+        curNode->keys.remove(key);
         if (curCount == 1) {
             mp.erase(key);
-        } 
-        else {
-            if (curNode->prev->count != curCount - 1) {
-                addNode(curNode->prev, curCount - 1);
+        } else {
+            if (curNode->prev == head || curNode->prev->count != curCount - 1) {
+                addNodeAfter(curNode->prev, curCount - 1);
             }
-
             curNode->prev->keys.push_front(key);
             mp[key] = curNode->prev;
         }
-        curNode->keys.remove(key);
+
         if (curNode->keys.empty()) {
             removeNode(curNode);
         }
     }
 
-    string getMaxKey() {
-        if (tail == head)
-            return "";
-
-        return tail->keys.front();
-    }
+    string getMaxKey() { return (tail == head) ? "" : tail->keys.front(); }
 
     string getMinKey() {
-        if (!head->next)
-            return "";
-
-        return head->next->keys.front();
+        return (head->next == nullptr) ? "" : head->next->keys.front();
     }
 };
-
-/**
- * Your AllOne object will be instantiated and called as such:
- * AllOne* obj = new AllOne();
- * obj->inc(key);
- * obj->dec(key);
- * string param_3 = obj->getMaxKey();
- * string param_4 = obj->getMinKey();
- */
