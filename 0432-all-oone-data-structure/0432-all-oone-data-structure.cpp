@@ -1,5 +1,4 @@
 class AllOne {
-public:
     struct Node {
         int count;
         list<string> keys;
@@ -10,22 +9,15 @@ public:
     unordered_map<string, Node*> mp;
 
     Node *head, *tail;
-
-    AllOne() {
-        head = new Node(0);
-        tail = head;
-    }
-
     void addNode(Node* prevNode, int count) {
         Node* newNode = new Node(count);
         newNode->next = prevNode->next;
         newNode->prev = prevNode;
-        if (newNode->next != nullptr) {
+        if (newNode->next) {
             newNode->next->prev = newNode;
         }
 
         prevNode->next = newNode;
-
         if (prevNode == tail) {
             tail = newNode;
         }
@@ -43,6 +35,13 @@ public:
 
         delete node;
     }
+
+public:
+    AllOne() {
+        head = new Node(0);
+        tail = head;
+    }
+
 
     void inc(string key) {
         if (!mp.count(key)) {
