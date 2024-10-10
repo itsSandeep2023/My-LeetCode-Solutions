@@ -2,7 +2,6 @@ class Solution {
 public:
     int maxWidthRamp(vector<int>& nums) {
         ios::sync_with_stdio(false);
-        cin.tie(0);
         
         int n = nums.size();
         stack<int> st;
