@@ -19,6 +19,8 @@ public:
                 if(nums[i] <= nums[j])
                 {
                     ans = max(ans, (j-i));
+                    if(ans >= n-i-1)
+                        return ans;
                     break;
                 }
                 j--;
