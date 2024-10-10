@@ -1,8 +1,6 @@
 class Solution {
 public:
     int maxWidthRamp(vector<int>& nums) {
-        ios_base::sync_with_stdio(false);
-        
         int ans{0};
         int mx = INT_MAX;
 
