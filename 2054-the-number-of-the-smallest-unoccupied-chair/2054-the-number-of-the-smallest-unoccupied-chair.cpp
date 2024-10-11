@@ -1,6 +1,7 @@
 class Solution {
 public:
     int smallestChair(vector<vector<int>>& times, int targetFriend) {
+        ios::sync_with_stdio(false);
             
         auto frnd = times[targetFriend];
         sort(times.begin(), times.end());
