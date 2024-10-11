@@ -3,7 +3,7 @@ public:
     int smallestChair(vector<vector<int>>& times, int targetFriend) {
         ios::sync_with_stdio(false);
             
-        auto frnd = times[targetFriend];
+        targetFriend = times[targetFriend][0];
         sort(times.begin(), times.end());
 
         priority_queue<int, vector<int>, greater<int>> emptySeats;
@@ -22,7 +22,7 @@ public:
             int seat = emptySeats.top();
             emptySeats.pop();
 
-            if (arrival == frnd[0] and leave == frnd[1]) return seat;
+            if (arrival == targetFriend) return seat;
 
             takenSeats.push({leave, seat});
         }
