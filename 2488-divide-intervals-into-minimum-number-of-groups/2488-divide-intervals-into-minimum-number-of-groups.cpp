@@ -1,6 +1,8 @@
 class Solution {
 public:
     int minGroups(vector<vector<int>>& itv) {
+        ios::sync_with_stdio(false);
+
         int n = itv.size();
         if(n==1) return 1;
         sort(itv.begin(), itv.end());
