@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2502-sort-the-people](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2502-sort-the-people) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2581-divide-players-into-teams-of-equal-skill) |
+| [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2727-number-of-senior-citizens](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2727-number-of-senior-citizens) |
 | [2755-extra-characters-in-a-string](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2755-extra-characters-in-a-string) |
 | [2846-robot-collisions](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2846-robot-collisions) |
@@ -355,6 +356,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2035-count-sub-islands](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2035-count-sub-islands) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
+| [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 ## Greedy
 |  |
@@ -399,6 +401,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2132-convert-1d-array-into-2d-array](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2411-spiral-matrix-iv](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2411-spiral-matrix-iv) |
+| [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -409,6 +412,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
+| [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2803-modify-graph-edge-weights](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2803-modify-graph-edge-weights) |
 | [3495-k-th-nearest-obstacle-queries](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3495-k-th-nearest-obstacle-queries) |
 ## Merge Sort
@@ -441,6 +445,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
+| [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2803-modify-graph-edge-weights](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2803-modify-graph-edge-weights) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
@@ -451,6 +456,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
+| [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2803-modify-graph-edge-weights](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2803-modify-graph-edge-weights) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## Binary Indexed Tree
