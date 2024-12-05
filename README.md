@@ -109,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2502-sort-the-people](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2502-sort-the-people) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2755-extra-characters-in-a-string](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2755-extra-characters-in-a-string) |
+| [2778-frequency-tracker](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2778-frequency-tracker) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -561,6 +562,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0731-my-calendar-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0731-my-calendar-ii) |
 | [0859-design-circular-deque](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0859-design-circular-deque) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1497-design-a-stack-with-increment-operation) |
+| [2778-frequency-tracker](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2778-frequency-tracker) |
 ## Segment Tree
 |  |
 | ------- |
