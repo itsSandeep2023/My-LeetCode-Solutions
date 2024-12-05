@@ -1,8 +1,6 @@
 class Solution {
 public:
     bool canChange(string start, string target) {
-        ios::sync_with_stdio(false);
-        
         int n = start.size();
 
         int i{0}, j{0};
