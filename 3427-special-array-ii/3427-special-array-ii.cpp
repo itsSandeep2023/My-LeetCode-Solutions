@@ -29,6 +29,8 @@ public:
     }
 
     vector<bool> isArraySpecial(vector<int>& nums, vector<vector<int>>& queries) {
+        ios::sync_with_stdio(false);
+        
         int n = nums.size();
         vector<int> vi;
         
