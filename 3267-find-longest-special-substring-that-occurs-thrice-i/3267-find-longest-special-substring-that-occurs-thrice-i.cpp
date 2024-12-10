@@ -1,6 +1,8 @@
 class Solution {
 public:
     int maximumLength(string s) {
+        ios::sync_with_stdio(false);
+        
         int n = s.length();
 
         vector<vector<int>> matrix(26, vector<int>(n + 1, 0));
