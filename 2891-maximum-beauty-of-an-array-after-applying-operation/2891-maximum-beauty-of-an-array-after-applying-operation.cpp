@@ -1,6 +1,8 @@
 class Solution {
 public:
     int maximumBeauty(vector<int>& nums, int k) {
+        ios::sync_with_stdio(false);
+        
         int n = nums.size();
         vector<pair<int, int>> t;
 
