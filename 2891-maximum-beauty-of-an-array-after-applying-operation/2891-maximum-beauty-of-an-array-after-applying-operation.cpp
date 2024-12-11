@@ -1,30 +1,26 @@
 class Solution {
 public:
-    int binarySearch(vector<int>& nums, int k, int i) {
-        int l = i + 1;
-        int r = nums.size() - 1;
-
-        while (l <= r) {
-            int mid = l + (r - l) / 2;
-
-            if (nums[mid] - k <= nums[i]) {
-                l = mid + 1;
-            } else {
-                r = mid - 1;
-            }
-        }
-
-        return l - i;
-    }
-
     int maximumBeauty(vector<int>& nums, int k) {
+        ios::sync_with_stdio(false);
         int n = nums.size();
         sort(nums.begin(), nums.end());
 
+        int i{0}, j{1};
+
         int ans{1};
 
-        for (int i{0}; i < n; i++) {
-            ans = max(ans, binarySearch(nums, k*2, i));
+        while(j<n)
+        {
+            while(i<j and nums[j] - nums[i] > k*2)
+            {
+                i++;
+            }
+
+            j++;
+            if(ans < j-i)
+            {
+                ans = j-i;
+            }
         }
 
         return ans;
