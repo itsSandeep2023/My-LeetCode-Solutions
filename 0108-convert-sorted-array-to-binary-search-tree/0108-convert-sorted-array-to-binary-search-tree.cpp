@@ -13,6 +13,8 @@
 class Solution {
 public:
     TreeNode* BST(vector<int>& nums, int l, int r) {
+        ios::sync_with_stdio(false);
+        
         if (l > r)
             return nullptr;
 
