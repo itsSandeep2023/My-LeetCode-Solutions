@@ -2,6 +2,8 @@ class Solution {
     #define P pair<float, int>
 public:
     vector<vector<int>> kClosest(vector<vector<int>>& points, int k) {
+        ios::sync_with_stdio(false);
+        
         priority_queue<P, vector<P>, greater<P>> pq;
 
         for(int i{0}; i<points.size(); i++)
