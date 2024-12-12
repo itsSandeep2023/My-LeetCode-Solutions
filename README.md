@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3518-maximum-multiplication-score](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3518-maximum-multiplication-score) |
 | [3535-find-the-count-of-monotonic-pairs-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3535-find-the-count-of-monotonic-pairs-i) |
+| [3651-transformed-array](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3651-transformed-array) |
 ## Hash Table
 |  |
 | ------- |
@@ -312,6 +313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2692-take-gifts-from-the-richest-pile](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [2846-robot-collisions](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2846-robot-collisions) |
+| [3651-transformed-array](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3651-transformed-array) |
 ## Tree
 |  |
 | ------- |
