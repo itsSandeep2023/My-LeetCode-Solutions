@@ -9,8 +9,7 @@ public:
             int a = points[i][0]*points[i][0];
             int b = points[i][1]*points[i][1];
 
-            float out = sqrt((float)(a+b));
-            cout<<out<<" ";
+            float out = sqrt(a+b);
 
             pq.push({out, i});
         }
