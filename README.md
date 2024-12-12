@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3518-maximum-multiplication-score](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3518-maximum-multiplication-score) |
 | [3535-find-the-count-of-monotonic-pairs-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3535-find-the-count-of-monotonic-pairs-i) |
+| [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3651-transformed-array](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3651-transformed-array) |
 ## Hash Table
 |  |
@@ -127,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+| [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 ## Linked List
 |  |
 | ------- |
