@@ -1,8 +1,6 @@
 class Solution {
 public:
     int minOperations(vector<int>& nums, int k) {
-        ios::sync_with_stdio(false);
-        
         unordered_set<int> st;
 
         int ans{0};
