@@ -1,30 +1,14 @@
 class Solution {
 public:
     long long findScore(vector<int>& nums) {
-        int n = nums.size();
-
-        vector<int> idx(n);
-        iota(idx.begin(), idx.end(), 0);
-
-        sort(idx.begin(), idx.end(), [&](int a, int b) {
-            if (nums[a] == nums[b])
-                return a < b;
-            return nums[a] < nums[b];
-        });
-
-        vector<bool> marked(n, false);
-
-        long long score{0};
-        for (auto& x : idx) {
-            if (!marked[x]) {
-                score += nums[x];
-                if (x > 0)
-                    marked[x - 1] = true;
-                if (x < n - 1)
-                    marked[x + 1] = true;
-            }
+        long long ans = 0;
+        for (int i = 0, n = nums.size(); i < n; i += 2) {
+            int i0 = i;
+            while (i + 1 < n && nums[i] > nums[i + 1])
+                ++i;
+            for (int j = i; j >= i0; j -= 2)
+                ans += nums[j];
         }
-
-        return score;
+        return ans;
     }
 };
