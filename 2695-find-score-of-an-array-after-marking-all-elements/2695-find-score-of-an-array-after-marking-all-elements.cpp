@@ -1,6 +1,8 @@
 class Solution {
 public:
     long long findScore(vector<int>& nums) {
+        ios::sync_with_stdio(false);
+        
         int n = nums.size();
 
         vector<int> idx(n);
