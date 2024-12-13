@@ -25,11 +25,6 @@ public:
             }
         }
 
-        // for(auto& x: idx)
-        // {
-        //     cout<<nums[x]<<" "<<x<<endl;
-        // }
-
         return score;
     }
 };
