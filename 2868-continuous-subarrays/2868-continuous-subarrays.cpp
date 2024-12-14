@@ -2,6 +2,8 @@ class Solution {
     #define P pair<int, int>
 public:
     long long continuousSubarrays(vector<int>& nums) {
+        ios::sync_with_stdio(false);
+        
         priority_queue<P> mxq;
         priority_queue<P, vector<P>, greater<P>> mnq;
 
