@@ -1,14 +1,10 @@
-int lcs[5010][5010];
 
 class Solution {
 public:
     int beautifulSplits(vector<int>& nums) {
-       int n = nums.size();
-        for (int i = 0; i <= n; i++) {
-            for (int j = 0; j <= n; j++) {
-                lcs[i][j] = 0;
-            }
-        }
+        int n = nums.size();
+        vector<vector<int>> lcs(n+1, vector<int>(n+1,0));
+        
         for (int i = n - 1; i >= 0; i--) {
             for (int j = n - 1; j >= i; j--) {
                 if (nums[i] != nums[j]) {
