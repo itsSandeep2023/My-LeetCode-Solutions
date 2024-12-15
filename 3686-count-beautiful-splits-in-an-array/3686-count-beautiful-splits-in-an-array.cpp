@@ -1,5 +1,5 @@
 
-int lcs[5010][5010];
+int lcs[5001][5001];
 class Solution {
 public:
     int beautifulSplits(vector<int>& nums) {
