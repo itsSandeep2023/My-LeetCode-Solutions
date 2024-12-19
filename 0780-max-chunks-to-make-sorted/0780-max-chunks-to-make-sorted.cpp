@@ -14,7 +14,7 @@ public:
                     mx = max(mx, arr[i]);
                 }
             }
-            ans++;
+            ans++; 
         }
 
         return ans;
