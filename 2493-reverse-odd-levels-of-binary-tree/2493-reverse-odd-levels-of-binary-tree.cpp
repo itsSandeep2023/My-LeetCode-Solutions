@@ -23,6 +23,7 @@ public:
     }
 
     TreeNode* reverseOddLevels(TreeNode* root) {
+        ios::sync_with_stdio(false);
         rev(root->left, root->right);
         return root;
     }
