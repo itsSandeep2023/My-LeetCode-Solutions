@@ -25,7 +25,7 @@ public:
             int cur = q.front();
             q.pop();
             inDegree[cur]--;
-            long long addValue = (nodeValues[cur] % k == 0) ? 0 : nodeValues[cur];
+            long long addValue = nodeValues[cur] % k;
             if (addValue == 0) componentCount++;
 
             for (int neighbor : gr[cur]) {
