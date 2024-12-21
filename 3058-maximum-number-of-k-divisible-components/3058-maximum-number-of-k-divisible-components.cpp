@@ -1,11 +1,11 @@
 class Solution {
 public:
-    int maxKDivisibleComponents(int n, vector<vector<int>>& edges, vector<int>& values, int k) {
+    int maxKDivisibleComponents(int n, vector<vector<int>>& edges, vector<int>& nodeValues, int k) {
         if (n < 2) return 1;
 
         vector<vector<int>> gr(n);
         vector<int> inDegree(n);
-        vector<long long> nodeValues(values.begin(), values.end());
+        // vector<long long> nodeValues(values.begin(), values.end());
 
         for (const auto& edge : edges) {
             int u = edge[0], v = edge[1];
@@ -25,7 +25,7 @@ public:
             int cur = q.front();
             q.pop();
             inDegree[cur]--;
-            long long addValue = nodeValues[cur] % k;
+            int addValue = nodeValues[cur] % k;
             if (addValue == 0) componentCount++;
 
             for (int neighbor : gr[cur]) {
