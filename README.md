@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0999-regions-cut-by-slashes](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0999-regions-cut-by-slashes) |
 | [1002-maximum-width-ramp](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1002-maximum-width-ramp) |
 | [1014-k-closest-points-to-origin](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1014-k-closest-points-to-origin) |
+| [1063-best-sightseeing-pair](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1063-best-sightseeing-pair) |
 | [1196-filling-bookcase-shelves](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1196-filling-bookcase-shelves) |
 | [1207-delete-nodes-and-return-forest](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1240-stone-game-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1240-stone-game-ii) |
@@ -298,6 +299,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0494-target-sum) |
 | [0650-2-keys-keyboard](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0650-2-keys-keyboard) |
 | [0664-strange-printer](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0664-strange-printer) |
+| [1063-best-sightseeing-pair](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1063-best-sightseeing-pair) |
 | [1196-filling-bookcase-shelves](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1196-filling-bookcase-shelves) |
 | [1240-stone-game-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1240-stone-game-ii) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
