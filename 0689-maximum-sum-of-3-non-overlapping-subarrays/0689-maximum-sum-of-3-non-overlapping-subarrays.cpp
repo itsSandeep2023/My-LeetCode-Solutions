@@ -46,7 +46,7 @@ public:
             }
         }
 
-        // return idx as vector
+        // return idxs as vector
         return {a, b, c};
     }
 };
