@@ -4,15 +4,13 @@ class Solution {
 public:
     static int good(int n, int x0, int x1){
         if ( dp[n]!=-1 ) return dp[n];
-        long long ans;
-        if (n < x1)//base case
-            ans=1;
+        long long ans{0};
         
         if ( n >= x0)
-            ans+=good(n-x0, x0, x1);
+            ans+=1+good(n-x0, x0, x1);
         
         if ( n >= x1)
-            ans+=good(n-x1, x0, x1);
+            ans+=1+good(n-x1, x0, x1);
         
         return dp[n]=ans%mod;
     }
