@@ -1,7 +1,7 @@
 class Solution {
 public:
     int mincostTickets(vector<int>& days, vector<int>& costs) {
-        int t[366 + 30] = {0};
+        int t[366 + 29] = {0};
 
         unordered_set<int> st(days.begin(), days.end());
 
