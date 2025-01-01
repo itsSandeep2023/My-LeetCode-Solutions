@@ -23,7 +23,7 @@ public:
     }
 
     vector<vector<int>> permuteUnique(vector<int>& nums) {
-        // sort(nums.begin(), nums.end());
+        ios::sync_with_stdio(false);
         n = nums.size();
         vector<vector<int>> ans;
         solve(nums, ans, 0);
