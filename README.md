@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1694-make-sum-divisible-by-p](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1694-make-sum-divisible-by-p) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
+| [1716-maximum-non-negative-product-in-a-matrix](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1716-maximum-non-negative-product-in-a-matrix) |
 | [1720-crawler-log-folder](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1720-crawler-log-folder) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
@@ -321,6 +322,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1457-minimum-difficulty-of-a-job-schedule](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1457-minimum-difficulty-of-a-job-schedule) |
 | [1511-count-number-of-teams](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1511-count-number-of-teams) |
+| [1716-maximum-non-negative-product-in-a-matrix](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1716-maximum-non-negative-product-in-a-matrix) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2067-maximum-number-of-points-with-cost) |
@@ -520,6 +522,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1496-lucky-numbers-in-a-matrix](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
+| [1716-maximum-non-negative-product-in-a-matrix](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1716-maximum-non-negative-product-in-a-matrix) |
 | [2035-count-sub-islands](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2035-count-sub-islands) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
