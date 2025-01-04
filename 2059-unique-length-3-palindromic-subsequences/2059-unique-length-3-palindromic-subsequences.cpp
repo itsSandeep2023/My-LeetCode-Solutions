@@ -1,8 +1,6 @@
 class Solution {
 public:
     int countPalindromicSubsequence(string s) {
-        ios::sync_with_stdio(false);
-        
         int ans{0};
 
         unordered_set<char> st;
