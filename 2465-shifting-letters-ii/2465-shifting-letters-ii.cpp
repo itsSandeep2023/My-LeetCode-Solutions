@@ -20,16 +20,10 @@ public:
             }
         }
 
-        for (int i = 1; i < n; ++i) {
-            diff[i] += diff[i - 1];
-        }
-
-        for (int i = 0; i < n; ++i) {
-            int shift = diff[i] % 26;
-            if (shift < 0)
-                shift += 26;
-
-            s[i] = ((s[i] - 'a' + shift) % 26) + 'a';
+        int currentShift = 0;
+        for (int i = 0; i < n; i++) {
+            currentShift = (currentShift + diff[i]) % 26;
+            s[i] = 'a' + (s[i] - 'a' + currentShift + 26) % 26; 
         }
 
         return s;
