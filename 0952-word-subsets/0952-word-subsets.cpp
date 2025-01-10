@@ -10,6 +10,8 @@ public:
     }
 
     vector<string> wordSubsets(vector<string>& words1, vector<string>& words2) {
+        ios::sync_with_stdio(false);
+        
         vector<string> result;
 
         vector<int> freq2(26);
