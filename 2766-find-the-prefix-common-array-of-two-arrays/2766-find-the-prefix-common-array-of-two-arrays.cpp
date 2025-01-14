@@ -2,24 +2,20 @@ class Solution {
 public:
     vector<int> findThePrefixCommonArray(vector<int>& A, vector<int>& B) {
         int n = A.size();
-        vector<int> ans(n);
-        unordered_set<int> st;
+        vector<int> freq(n+1, 0), res(n);
+        int cnt = 0;
 
-        for(int i{0}; i<n; i++)
-        {
-            if(i>0) ans[i] += ans[i-1];
-
-            if(st.count(A[i]))
-                ans[i]++;
-            else
-                st.insert(A[i]);
+        for (int i = 0; i < n; i++) {
             
-            if(st.count(B[i]))
-                ans[i]++;
-            else
-                st.insert(B[i]);
+            freq[A[i]]++;
+            if (freq[A[i]] == 2) cnt++;
+
+            freq[B[i]]++;
+            if (freq[B[i]] == 2) cnt++;
+
+            res[i] = cnt;
         }
 
-        return ans;
+        return res;
     }
 };
