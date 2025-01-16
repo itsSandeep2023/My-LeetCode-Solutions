@@ -5,13 +5,13 @@ public:
         int m = nums2.size();
 
         int ans{0};
-    
-        if(m%2)
-            for(auto& x: nums1)
+
+        if (m % 2)
+            for (auto& x : nums1)
                 ans ^= x;
 
-        if(n%2)
-            for(auto& x: nums2)
+        if (n % 2)
+            for (auto& x : nums2)
                 ans ^= x;
 
         return ans;
