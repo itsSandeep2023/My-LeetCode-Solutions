@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0179-largest-number](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0179-largest-number) |
 | [0215-kth-largest-element-in-an-array](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0239-sliding-window-maximum) |
+| [0407-trapping-rain-water-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0407-trapping-rain-water-ii) |
 | [0494-target-sum](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0494-target-sum) |
 | [0539-minimum-time-difference](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0539-minimum-time-difference) |
 | [0624-maximum-distance-in-arrays](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0624-maximum-distance-in-arrays) |
@@ -489,6 +490,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0111-minimum-depth-of-binary-tree](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0112-path-sum) |
+| [0407-trapping-rain-water-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0407-trapping-rain-water-ii) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0999-regions-cut-by-slashes](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0999-regions-cut-by-slashes) |
 | [1484-linked-list-in-binary-tree](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1484-linked-list-in-binary-tree) |
@@ -553,6 +555,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0037-sudoku-solver) |
+| [0407-trapping-rain-water-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0407-trapping-rain-water-ii) |
 | [0921-spiral-matrix-iii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0921-spiral-matrix-iii) |
 | [0999-regions-cut-by-slashes](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0999-regions-cut-by-slashes) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
@@ -571,6 +574,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0239-sliding-window-maximum) |
 | [0264-ugly-number-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0264-ugly-number-ii) |
+| [0407-trapping-rain-water-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0407-trapping-rain-water-ii) |
 | [0948-sort-an-array](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0948-sort-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1014-k-closest-points-to-origin) |
 | [1325-path-with-maximum-probability](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1325-path-with-maximum-probability) |
