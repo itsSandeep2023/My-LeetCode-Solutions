@@ -17,22 +17,15 @@ public:
             if (vec[i].first - vec[i - 1].first <= limit) {
                 curr.push_back(vec[i].second);
             } else {
-                sort(curr.begin(), curr.end());
-                for (auto& x : curr) {
-                    cout << x << " " << vec[l].first << " -> ";
-                    nums[x] = vec[l].first;
-                    l++;
-                }
-                cout << endl;
-                curr.clear();
+                sort(curr.begin() + l, curr.end());
+                l = i;
                 curr.push_back(vec[i].second);
             }
         }
+        sort(curr.begin() + l, curr.end());
 
-        sort(curr.begin(), curr.end());
-        for (auto& x : curr) {
-            nums[x] = vec[l].first;
-            l++;
+        for (int i = 0; i < n; i++) {
+            nums[curr[i]] = vec[i].first;
         }
 
         return nums;
