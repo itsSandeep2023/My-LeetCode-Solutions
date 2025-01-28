@@ -38,9 +38,7 @@ public:
         segTree[i] = segTree[2 * i + 1] + segTree[2 * i + 2];
     }
 
-    void update(int index, int val) {
-        updateSeg(index, val, 0, 0, n-1);
-    }
+    void update(int index, int val) { updateSeg(index, val, 0, 0, n - 1); }
 
     int rangeSum(int i, int l, int r, int& left, int& right) {
         if (l > right or r < left) {
