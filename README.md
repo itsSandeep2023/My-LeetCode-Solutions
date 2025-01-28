@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0239-sliding-window-maximum) |
 | [0303-range-sum-query-immutable](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0303-range-sum-query-immutable) |
+| [0307-range-sum-query-mutable](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0307-range-sum-query-mutable) |
 | [0407-trapping-rain-water-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0407-trapping-rain-water-ii) |
 | [0494-target-sum](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0494-target-sum) |
 | [0539-minimum-time-difference](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0539-minimum-time-difference) |
@@ -671,6 +672,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Indexed Tree
 |  |
 | ------- |
+| [0307-range-sum-query-mutable](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0307-range-sum-query-mutable) |
 | [1511-count-number-of-teams](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1511-count-number-of-teams) |
 | [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
 ## Union Find
@@ -774,6 +776,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0303-range-sum-query-immutable) |
+| [0307-range-sum-query-mutable](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0307-range-sum-query-mutable) |
 | [0432-all-oone-data-structure](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0432-all-oone-data-structure) |
 | [0729-my-calendar-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0731-my-calendar-ii) |
@@ -783,6 +786,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Segment Tree
 |  |
 | ------- |
+| [0307-range-sum-query-mutable](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0307-range-sum-query-mutable) |
 | [0729-my-calendar-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0731-my-calendar-ii) |
 | [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
