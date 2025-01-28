@@ -105,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2727-number-of-senior-citizens](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2727-number-of-senior-citizens) |
 | [2755-extra-characters-in-a-string](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2755-extra-characters-in-a-string) |
+| [2764-maximum-number-of-fish-in-a-grid](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2792-neighboring-bitwise-xor](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2792-neighboring-bitwise-xor) |
 | [2846-robot-collisions](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2846-robot-collisions) |
@@ -430,6 +431,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2493-reverse-odd-levels-of-binary-tree) |
+| [2764-maximum-number-of-fish-in-a-grid](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [3058-maximum-number-of-k-divisible-components](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3058-maximum-number-of-k-divisible-components) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 | [3486-count-the-number-of-good-nodes](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3486-count-the-number-of-good-nodes) |
@@ -515,6 +517,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
+| [2764-maximum-number-of-fish-in-a-grid](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 ## Greedy
@@ -585,6 +588,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2411-spiral-matrix-iv](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2411-spiral-matrix-iv) |
 | [2685-first-completely-painted-row-or-column](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2685-first-completely-painted-row-or-column) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
+| [2764-maximum-number-of-fish-in-a-grid](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -675,6 +679,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0999-regions-cut-by-slashes](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0999-regions-cut-by-slashes) |
 | [1396-count-servers-that-communicate](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1396-count-servers-that-communicate) |
 | [2035-count-sub-islands](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2035-count-sub-islands) |
+| [2764-maximum-number-of-fish-in-a-grid](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 ## Strongly Connected Component
 |  |
