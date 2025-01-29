@@ -1,15 +1,15 @@
 class NumMatrix {
-    vector<vector<long long>> matSum;
+    vector<vector<int>> matSum;
 
 public:
     NumMatrix(vector<vector<int>>& matrix) {
         int n = matrix.size();
         int m = matrix[0].size();
 
-        matSum.resize(n + 1, vector<long long>(m + 1, 0));
+        matSum.resize(n + 1, vector<int>(m + 1, 0));
 
         for (int i{0}; i < n; i++) {
-            long long sum{0};
+            int sum{0};
             for (int j{0}; j < m; j++) {
                 sum += matrix[i][j];
                 matSum[i + 1][j + 1] = matSum[i][j + 1] + sum;
