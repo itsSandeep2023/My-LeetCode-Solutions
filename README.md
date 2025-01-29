@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0239-sliding-window-maximum) |
 | [0303-range-sum-query-immutable](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0303-range-sum-query-immutable) |
+| [0304-range-sum-query-2d-immutable](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0304-range-sum-query-2d-immutable) |
 | [0307-range-sum-query-mutable](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0307-range-sum-query-mutable) |
 | [0407-trapping-rain-water-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0407-trapping-rain-water-ii) |
 | [0494-target-sum](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0494-target-sum) |
@@ -576,6 +577,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0037-sudoku-solver) |
+| [0304-range-sum-query-2d-immutable](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0304-range-sum-query-2d-immutable) |
 | [0407-trapping-rain-water-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0407-trapping-rain-water-ii) |
 | [0921-spiral-matrix-iii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0921-spiral-matrix-iii) |
 | [0999-regions-cut-by-slashes](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0999-regions-cut-by-slashes) |
@@ -711,6 +713,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0303-range-sum-query-immutable) |
+| [0304-range-sum-query-2d-immutable](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0304-range-sum-query-2d-immutable) |
 | [0731-my-calendar-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0731-my-calendar-ii) |
 | [0878-shifting-letters](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0878-shifting-letters) |
 | [1240-stone-game-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1240-stone-game-ii) |
@@ -780,6 +783,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0303-range-sum-query-immutable) |
+| [0304-range-sum-query-2d-immutable](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0304-range-sum-query-2d-immutable) |
 | [0307-range-sum-query-mutable](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0307-range-sum-query-mutable) |
 | [0432-all-oone-data-structure](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0432-all-oone-data-structure) |
 | [0729-my-calendar-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0729-my-calendar-i) |
