@@ -27,6 +27,7 @@ public:
     }
 
     int rangeSumBST(TreeNode* root, int low, int high) {
+        ios::sync_with_stdio(false);
         bst(root, low, high);
 
         return ans;
