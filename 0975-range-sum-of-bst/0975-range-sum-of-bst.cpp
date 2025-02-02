@@ -13,15 +13,21 @@ class Solution {
     int ans{0};
 public:
 
-    int rangeSumBST(TreeNode* root, int low, int high) {
+    int bst(TreeNode* root, int &low, int &high) {
         if(!root)
             return 0;
 
         if(root->val >= low and root->val <= high)
             ans += root->val;
 
-        rangeSumBST(root->left, low, high);
-        rangeSumBST(root->right, low, high);
+        bst(root->left, low, high);
+        bst(root->right, low, high);
+
+        return ans;
+    }
+
+    int rangeSumBST(TreeNode* root, int low, int high) {
+        bst(root, low, high);
 
         return ans;
     }
