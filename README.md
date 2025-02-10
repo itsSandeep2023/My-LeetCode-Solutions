@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0047-permutations-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0053-maximum-subarray) |
+| [0063-unique-paths-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0063-unique-paths-ii) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0179-largest-number](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0179-largest-number) |
 | [0215-kth-largest-element-in-an-array](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0215-kth-largest-element-in-an-array) |
@@ -361,6 +362,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0053-maximum-subarray) |
+| [0063-unique-paths-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0063-unique-paths-ii) |
 | [0241-different-ways-to-add-parentheses](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0264-ugly-number-ii) |
 | [0494-target-sum](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0494-target-sum) |
@@ -600,6 +602,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0037-sudoku-solver) |
+| [0063-unique-paths-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0063-unique-paths-ii) |
 | [0304-range-sum-query-2d-immutable](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0304-range-sum-query-2d-immutable) |
 | [0407-trapping-rain-water-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0407-trapping-rain-water-ii) |
 | [0921-spiral-matrix-iii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0921-spiral-matrix-iii) |
