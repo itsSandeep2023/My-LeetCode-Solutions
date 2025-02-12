@@ -1,59 +1,48 @@
 class Solution {
+#define pp pair<int, pair<int, int>>
 public:
-    typedef pair<int, pair<int, int>> PP;
-    vector<vector<int>> directions = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
+    int trapRainWater(vector<vector<int>>& hm) {
+        int n = hm.size();
+        int m = hm[0].size();
 
-    int trapRainWater(vector<vector<int>>& heightMap) {
+        priority_queue<pp, vector<pp>, greater<pp>> q;
+        vector<vector<bool>> vis(n, vector<bool>(m, false));
 
-        int m = heightMap.size();
-        int n = heightMap[0].size();
+        int dir[4][2] = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
 
-        priority_queue<PP, vector<PP>, greater<>> boundaryCells;
-
-        vector<vector<bool>> visited(m, vector<bool>(n, false));
-
-        for (int r = 0; r < m; ++r) {
-            for (int c : {0, n - 1}) { // 0 : left most boundary, cols-1 right
-                                       // most boundary
-                boundaryCells.push({heightMap[r][c], {r, c}});
-                visited[r][c] = true;
+        for (int r{0}; r < n; r++)
+            for (int c : {0, m - 1}) {
+                q.push({hm[r][c], {r, c}});
+                vis[r][c] = true;
             }
-        }
 
-        for (int c = 0; c < n; ++c) {
-            for (int r : {0, m - 1}) { // 0 : top most boundary, rows-1 bottom
-                                       // most boundary
-                boundaryCells.push({heightMap[r][c], {r, c}});
-                visited[r][c] = true;
+        for (int c{1}; c < m - 1; c++)
+            for (int r : {0, n - 1}) {
+                q.push({hm[r][c], {r, c}});
+                vis[r][c] = true;
             }
-        }
 
-        int trappedWater = 0;
+        int water{0};
 
-        while (!boundaryCells.empty()) {
-            auto [height, cell] = boundaryCells.top();
-            boundaryCells.pop();
+        while (!q.empty()) {
+            int height = q.top().first;
+            int i = q.top().second.first;
+            int j = q.top().second.second;
+            q.pop();
 
-            int i = cell.first;
-            int j = cell.second;
+            for (int d{0}; d < 4; d++) {
+                int ni = i + dir[d][0];
+                int nj = j + dir[d][1];
 
-            for (vector<int>& dir : directions) {
-                int i_ = i + dir[0];
-                int j_ = j + dir[1];
-
-                if (i_ >= 0 && i_ < m && j_ >= 0 && j_ < n &&
-                    !visited[i_][j_]) {
-
-                    trappedWater += max(0, height - heightMap[i_][j_]);
-
-                    boundaryCells.push(
-                        {max(height, heightMap[i_][j_]), {i_, j_}});
-
-                    visited[i_][j_] = true;
+                if (ni >= 0 and ni < n and nj >= 0 and nj < m and
+                    !vis[ni][nj]) {
+                    water += max(height - hm[ni][nj], 0);
+                    q.push({max(height, hm[ni][nj]), {ni, nj}});
+                    vis[ni][nj] = true;
                 }
             }
         }
 
-        return trappedWater;
+        return water;
     }
 };
