@@ -124,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3235-minimum-cost-to-convert-string-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
+| [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3427-special-array-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3427-special-array-ii) |
 | [3429-special-array-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3429-special-array-i) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
@@ -408,6 +409,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [2846-robot-collisions](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2846-robot-collisions) |
+| [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3447-clear-digits](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3447-clear-digits) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
@@ -646,6 +648,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2803-modify-graph-edge-weights](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2803-modify-graph-edge-weights) |
 | [2868-continuous-subarrays](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2868-continuous-subarrays) |
+| [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3495-k-th-nearest-obstacle-queries](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3495-k-th-nearest-obstacle-queries) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Merge Sort
