@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1803-average-waiting-time](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1803-average-waiting-time) |
+| [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1876-map-of-highest-peak](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1876-map-of-highest-peak) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
@@ -746,6 +747,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0047-permutations-ii) |
 | [0494-target-sum](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0494-target-sum) |
+| [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Monotonic Queue
 |  |
