@@ -1,30 +1,28 @@
 class Solution {
-    unordered_set<string> res;
     int n;
+    int ans{0};
 
 public:
-    void solve(string& tiles, vector<bool>& ids, string& cur)
-    {
-        for (int i{0}; i < n; i++) {
-            if (ids[i] == false) {
-                cur.push_back(tiles[i]);
-                if(!res.count(cur))
-                {
-                    res.insert(cur);
-                    ids[i] = true;
-                    solve(tiles, ids, cur);
-                    ids[i] = false;
-                }
-                cur.pop_back();
+    void solve(string& tiles, vector<int>& fr) {
+        for (auto& x : fr) {
+            if (x > 0) {
+                x--;
+                ans++;
+                solve(tiles, fr);
+                x++;
             }
         }
     }
 
     int numTilePossibilities(string tiles) {
         n = tiles.size();
-        vector<bool> ids(n, false);
-        string cur;
-        solve(tiles, ids, cur);
-        return res.size();
+        vector<int> fr(26);
+
+        for (auto& x : tiles)
+            fr[x - 'A']++;
+
+        solve(tiles, fr);
+
+        return ans;
     }
 };
