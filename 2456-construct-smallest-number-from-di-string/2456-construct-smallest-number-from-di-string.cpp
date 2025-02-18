@@ -29,7 +29,7 @@ public:
             }
         }
 
-        if (ans.size()<=n)
+        if (pattern[n - 1] == 'I')
             ans.push_back(k + '0');
 
         return ans;
