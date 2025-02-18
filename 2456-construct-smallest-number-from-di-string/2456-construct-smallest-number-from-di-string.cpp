@@ -29,8 +29,8 @@ public:
             }
         }
 
-        if(pattern[n-1]=='I')
-            ans.push_back(k+'0');
+        if (ans.size()<=n)
+            ans.push_back(k + '0');
 
         return ans;
     }
