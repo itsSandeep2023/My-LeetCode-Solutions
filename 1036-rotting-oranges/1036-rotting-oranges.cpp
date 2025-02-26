@@ -8,12 +8,15 @@ public:
         int dir[4][2] = {{0,1},{1,0},{-1,0},{0,-1}};
 
         queue<P> q;
+        int cnt{0};
         for(int i{0}; i<n; i++)
         {
             for(int j{0}; j<m; j++)
             {
                 if(grid[i][j]==2)
                     q.push({i,j});
+                if(grid[i][j]==1)
+                    cnt++;
             }
         }
         
@@ -37,20 +40,14 @@ public:
                     {
                         q.push({nr, nc});
                         grid[nr][nc] = 2;
+                        cnt--;
                     }
                 }
             }
             ans++;
         }
 
-        for(int i{0}; i<n; i++)
-        {
-            for(int j{0}; j<m; j++)
-            {
-                if(grid[i][j]==1)
-                    return -1;
-            }
-        }
+        if(cnt) return -1;
 
         return ans>1?ans-1:0;
     }
