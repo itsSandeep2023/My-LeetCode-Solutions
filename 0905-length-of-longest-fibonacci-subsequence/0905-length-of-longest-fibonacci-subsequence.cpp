@@ -23,8 +23,13 @@ public:
 
                 int cnt{2};
 
-                while(st.count(c) and mp[a] != b)
+                while(st.count(c))
                 {
+                    if(mp[a] == b)
+                    {
+                        cout<<"b"<<" -> "<<a<<" "<<b<<endl;
+                        break;
+                    }
                     mp[a] = b;
                     cnt++;
                     a=b;
