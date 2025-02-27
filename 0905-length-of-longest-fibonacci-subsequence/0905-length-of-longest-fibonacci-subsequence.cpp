@@ -11,6 +11,8 @@ public:
 
         int ans{2};
 
+        unordered_map<int ,int> mp;
+
         for(int i{0}; i<n; i++)
         {
             for(int j{i+1}; j<n; j++)
@@ -21,8 +23,9 @@ public:
 
                 int cnt{2};
 
-                while(st.count(c))
+                while(st.count(c) and mp[a] != b)
                 {
+                    mp[a] = b;
                     cnt++;
                     a=b;
                     b=c;
