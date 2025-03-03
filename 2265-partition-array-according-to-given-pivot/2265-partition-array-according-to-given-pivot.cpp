@@ -20,7 +20,7 @@ public:
 
         for (auto& x : nums)
             if (x > pivot)
-                ans[i++] = x;
+                ans[i++] = x; 
 
         return ans;
     }
