@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<int> pivotArray(vector<int>& nums, int pivot) {
-        ios::sync_with_stdio(false);
+        ios::sync_with_stdio(0);
         
         int n = nums.size();
         vector<int> ans(n);
