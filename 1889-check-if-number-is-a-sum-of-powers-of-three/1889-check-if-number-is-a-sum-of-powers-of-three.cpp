@@ -6,10 +6,10 @@ public:
     bool checkPowersOfThree(int n) {
         int t;
         unordered_set<int> st;
-        while(n)
-        {
+        while (n) {
             t = log3(n);
-            if(st.count(t)) return false;
+            if (st.count(t))
+                return false;
             st.insert(t);
             n -= pow(3, t);
         }
