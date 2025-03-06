@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0063-unique-paths-ii) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0119-pascals-triangle-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0119-pascals-triangle-ii) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0179-largest-number](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0179-largest-number) |
 | [0215-kth-largest-element-in-an-array](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0239-sliding-window-maximum) |
@@ -410,6 +411,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0053-maximum-subarray) |
 | [0063-unique-paths-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0063-unique-paths-ii) |
 | [0119-pascals-triangle-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0119-pascals-triangle-ii) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0241-different-ways-to-add-parentheses](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0264-ugly-number-ii) |
 | [0494-target-sum](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0494-target-sum) |
