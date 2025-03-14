@@ -148,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3476-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3476-find-minimum-operations-to-make-all-elements-divisible-by-three) |
+| [3477-minimum-operations-to-make-binary-array-elements-equal-to-one-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3477-minimum-operations-to-make-binary-array-elements-equal-to-one-ii) |
 | [3482-construct-string-with-minimum-cost](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3482-construct-string-with-minimum-cost) |
 | [3483-alternating-groups-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3483-alternating-groups-ii) |
 | [3495-k-th-nearest-obstacle-queries](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3495-k-th-nearest-obstacle-queries) |
@@ -443,6 +444,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2164-two-best-non-overlapping-events](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2164-two-best-non-overlapping-events) |
 | [2562-count-ways-to-build-good-strings](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2562-count-ways-to-build-good-strings) |
 | [2755-extra-characters-in-a-string](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2755-extra-characters-in-a-string) |
+| [3477-minimum-operations-to-make-binary-array-elements-equal-to-one-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3477-minimum-operations-to-make-binary-array-elements-equal-to-one-ii) |
 | [3482-construct-string-with-minimum-cost](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3482-construct-string-with-minimum-cost) |
 | [3518-maximum-multiplication-score](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3518-maximum-multiplication-score) |
 | [3535-find-the-count-of-monotonic-pairs-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3535-find-the-count-of-monotonic-pairs-i) |
@@ -651,6 +653,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3477-minimum-operations-to-make-binary-array-elements-equal-to-one-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3477-minimum-operations-to-make-binary-array-elements-equal-to-one-ii) |
 ## Sorting
 |  |
 | ------- |
