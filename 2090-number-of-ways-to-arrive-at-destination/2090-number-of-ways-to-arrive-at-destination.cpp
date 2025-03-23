@@ -24,7 +24,7 @@ public:
 
         while(!pq.empty())
         {
-            int currTime = pq.top().first;
+            long long currTime = pq.top().first;
             int currNode = pq.top().second;
 
             pq.pop();
