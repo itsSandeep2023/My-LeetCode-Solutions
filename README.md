@@ -151,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3427-special-array-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3427-special-array-ii) |
 | [3429-special-array-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3429-special-array-i) |
+| [3430-count-days-without-meetings](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3430-count-days-without-meetings) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3476-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3476-find-minimum-operations-to-make-all-elements-divisible-by-three) |
@@ -704,6 +705,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3430-count-days-without-meetings](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3430-count-days-without-meetings) |
 | [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
 ## Matrix
 |  |
