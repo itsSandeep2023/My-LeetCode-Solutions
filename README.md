@@ -166,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3651-transformed-array](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3651-transformed-array) |
+| [3657-check-if-grid-can-be-cut-into-sections](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
 ## Hash Table
 |  |
@@ -706,6 +707,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3430-count-days-without-meetings](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3430-count-days-without-meetings) |
+| [3657-check-if-grid-can-be-cut-into-sections](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
 ## Matrix
 |  |
