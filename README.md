@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0307-range-sum-query-mutable](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0307-range-sum-query-mutable) |
 | [0368-largest-divisible-subset](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0368-largest-divisible-subset) |
 | [0407-trapping-rain-water-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0407-trapping-rain-water-ii) |
+| [0416-partition-equal-subset-sum](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0494-target-sum) |
 | [0539-minimum-time-difference](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0539-minimum-time-difference) |
 | [0624-maximum-distance-in-arrays](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0624-maximum-distance-in-arrays) |
@@ -445,6 +446,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0264-ugly-number-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0264-ugly-number-ii) |
 | [0337-house-robber-iii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0337-house-robber-iii) |
 | [0368-largest-divisible-subset](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0368-largest-divisible-subset) |
+| [0416-partition-equal-subset-sum](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0494-target-sum) |
 | [0650-2-keys-keyboard](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0650-2-keys-keyboard) |
 | [0664-strange-printer](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0664-strange-printer) |
