@@ -251,6 +251,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0432-all-oone-data-structure](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0432-all-oone-data-structure) |
 | [0725-split-linked-list-in-parts](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0725-split-linked-list-in-parts) |
 | [0859-design-circular-deque](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0859-design-circular-deque) |
+| [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1484-linked-list-in-binary-tree](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1484-linked-list-in-binary-tree) |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2299-merge-nodes-in-between-zeros) |
@@ -274,6 +275,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0944-smallest-range-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/0944-smallest-range-i) |
 | [1014-k-closest-points-to-origin](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1014-k-closest-points-to-origin) |
 | [1240-stone-game-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1240-stone-game-ii) |
+| [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1477-product-of-the-last-k-numbers](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1477-product-of-the-last-k-numbers) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1642-water-bottles](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1642-water-bottles) |
