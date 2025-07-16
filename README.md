@@ -166,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3477-minimum-operations-to-make-binary-array-elements-equal-to-one-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3477-minimum-operations-to-make-binary-array-elements-equal-to-one-ii) |
 | [3482-construct-string-with-minimum-cost](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3482-construct-string-with-minimum-cost) |
 | [3483-alternating-groups-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3483-alternating-groups-ii) |
+| [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3495-k-th-nearest-obstacle-queries](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3495-k-th-nearest-obstacle-queries) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
@@ -483,6 +484,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2755-extra-characters-in-a-string](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2755-extra-characters-in-a-string) |
 | [3477-minimum-operations-to-make-binary-array-elements-equal-to-one-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3477-minimum-operations-to-make-binary-array-elements-equal-to-one-ii) |
 | [3482-construct-string-with-minimum-cost](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3482-construct-string-with-minimum-cost) |
+| [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3518-maximum-multiplication-score](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3518-maximum-multiplication-score) |
 | [3535-find-the-count-of-monotonic-pairs-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3535-find-the-count-of-monotonic-pairs-i) |
 ## Simulation
