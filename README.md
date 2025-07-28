@@ -109,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2155-find-missing-observations](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2155-find-missing-observations) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2164-two-best-non-overlapping-events](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2164-two-best-non-overlapping-events) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2232-adding-spaces-to-a-string](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2232-adding-spaces-to-a-string) |
 | [2254-check-if-every-row-and-column-contains-all-numbers](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2254-check-if-every-row-and-column-contains-all-numbers) |
@@ -621,6 +622,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1786-count-the-number-of-consistent-strings](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2308-divide-array-into-equal-pairs](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2308-divide-array-into-equal-pairs) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2478-longest-nice-subarray](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2478-longest-nice-subarray) |
@@ -904,6 +906,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2107-find-unique-binary-string](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2107-find-unique-binary-string) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Monotonic Queue
@@ -1050,6 +1053,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/itsSandeep2023/My-LeetCode-Solutions/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 ## Topological Sort
